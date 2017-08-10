@@ -1,0 +1,12 @@
+---
+layout: station
+id: R01
+name: Astoria–Ditmars Boulevard
+lines: [BMT Astoria]
+boro: Q
+station: 1
+complex: 1
+services: [N,W]
+longitute: -73.912034
+latitude: 40.775036
+---
