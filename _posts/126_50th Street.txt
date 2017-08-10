@@ -1,0 +1,12 @@
+---
+layout: station
+id: 126
+complex: 316
+name: 50th Street
+borough: M
+loc_lat: 40.761728
+loc_lon: -73.983849
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

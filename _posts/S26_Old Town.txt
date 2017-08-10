@@ -1,0 +1,12 @@
+---
+layout: station
+id: S26
+complex: 506
+name: Old Town
+borough: SI
+loc_lat: 40.596612
+loc_lon: -74.087368
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

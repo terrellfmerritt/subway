@@ -1,0 +1,12 @@
+---
+layout: station
+id: 113
+complex: 303
+name: 157th Street
+borough: M
+loc_lat: 40.834041
+loc_lon: -73.94489
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

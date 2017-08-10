@@ -1,0 +1,12 @@
+---
+layout: station
+id: S11
+complex: 523
+name: Arthur Kill
+borough: SI
+loc_lat: 40.516578
+loc_lon: -74.242096
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

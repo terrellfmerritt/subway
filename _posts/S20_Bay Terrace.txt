@@ -1,0 +1,12 @@
+---
+layout: station
+id: S20
+complex: 512
+name: Bay Terrace
+borough: SI
+loc_lat: 40.5564
+loc_lon: -74.136907
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: S27
+complex: 505
+name: Grasmere
+borough: SI
+loc_lat: 40.603117
+loc_lon: -74.084087
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

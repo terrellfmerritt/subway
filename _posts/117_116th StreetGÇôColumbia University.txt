@@ -1,0 +1,12 @@
+---
+layout: station
+id: 117
+complex: 307
+name: 116th Street–Columbia University
+borough: M
+loc_lat: 40.807722
+loc_lon: -73.96411
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

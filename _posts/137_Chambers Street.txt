@@ -1,0 +1,12 @@
+---
+layout: station
+id: 137
+complex: 327
+name: Chambers Street
+borough: M
+loc_lat: 40.715478
+loc_lon: -74.009266
+lines: [IRT Broadway–Seventh Avenue]
+services: [1,2,3]
+visited: No
+---

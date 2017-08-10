@@ -1,0 +1,12 @@
+---
+layout: station
+id: S09
+complex: 522
+name: Tottenville
+borough: SI
+loc_lat: 40.512764
+loc_lon: -74.251961
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

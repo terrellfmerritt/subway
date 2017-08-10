@@ -1,0 +1,12 @@
+---
+layout: station
+id: 131
+complex: 321
+name: 18th Street
+borough: M
+loc_lat: 40.74104
+loc_lon: -73.997871
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

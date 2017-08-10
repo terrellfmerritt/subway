@@ -1,0 +1,12 @@
+---
+layout: station
+id: R21
+complex: 16
+name: 8th Street–NYU
+borough: M
+loc_lat: 40.730328
+loc_lon: -73.992629
+lines: [BMT Broadway]
+services: [R,W]
+visited: No
+---

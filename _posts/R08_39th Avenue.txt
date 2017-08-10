@@ -1,0 +1,12 @@
+---
+layout: station
+id: R08
+complex: 6
+name: 39th Avenue
+borough: Q
+loc_lat: 40.752882
+loc_lon: -73.932755
+lines: [BMT Astoria]
+services: [N,W]
+visited: No
+---

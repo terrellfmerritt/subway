@@ -1,0 +1,12 @@
+---
+layout: station
+id: S14
+complex: 518
+name: Pleasant Plains
+borough: SI
+loc_lat: 40.52241
+loc_lon: -74.217847
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: 111
+complex: 301
+name: 181st Street
+borough: M
+loc_lat: 40.849505
+loc_lon: -73.933596
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

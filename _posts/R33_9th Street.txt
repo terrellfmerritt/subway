@@ -1,0 +1,12 @@
+---
+layout: station
+id: R33
+complex: 608
+name: 9th Street
+borough: Bk
+loc_lat: 40.670847
+loc_lon: -73.988302
+lines: [BMT Fourth Avenue]
+services: [R]
+visited: No
+---

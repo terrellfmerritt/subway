@@ -1,0 +1,12 @@
+---
+layout: station
+id: 125
+complex: 614
+name: 59th Street–Columbus Circle
+borough: M
+loc_lat: 40.768247
+loc_lon: -73.981929
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

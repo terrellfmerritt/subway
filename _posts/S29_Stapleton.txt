@@ -1,0 +1,12 @@
+---
+layout: station
+id: S29
+complex: 503
+name: Stapleton
+borough: SI
+loc_lat: 40.627915
+loc_lon: -74.075162
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

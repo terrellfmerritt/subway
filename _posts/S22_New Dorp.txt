@@ -1,0 +1,12 @@
+---
+layout: station
+id: S22
+complex: 510
+name: New Dorp
+borough: SI
+loc_lat: 40.57348
+loc_lon: -74.11721
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

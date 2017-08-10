@@ -1,0 +1,12 @@
+---
+layout: station
+id: 121
+complex: 311
+name: 86th Street
+borough: M
+loc_lat: 40.788644
+loc_lon: -73.976218
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

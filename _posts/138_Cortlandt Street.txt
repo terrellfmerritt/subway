@@ -1,0 +1,12 @@
+---
+layout: station
+id: 138
+complex: 328
+name: Cortlandt Street
+borough: M
+loc_lat: 40.711835
+loc_lon: -74.012188
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

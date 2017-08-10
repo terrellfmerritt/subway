@@ -1,0 +1,12 @@
+---
+layout: station
+id: R36
+complex: 32
+name: 36th Street
+borough: Bk
+loc_lat: 40.655144
+loc_lon: -74.003549
+lines: [BMT Fourth Avenue]
+services: [D,N,R]
+visited: No
+---

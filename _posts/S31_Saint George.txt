@@ -1,0 +1,12 @@
+---
+layout: station
+id: S31
+complex: 501
+name: Saint George
+borough: SI
+loc_lat: 40.643748
+loc_lon: -74.073643
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: R28
+complex: 620
+name: Court Street
+borough: Bk
+loc_lat: 40.6941
+loc_lon: -73.991777
+lines: [BMT Broadway]
+services: [R]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: R41
+complex: 35
+name: 59th Street
+borough: Bk
+loc_lat: 40.641362
+loc_lon: -74.017881
+lines: [BMT Fourth Avenue]
+services: [N,R]
+visited: No
+---

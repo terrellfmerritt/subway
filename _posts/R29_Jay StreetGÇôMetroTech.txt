@@ -1,0 +1,12 @@
+---
+layout: station
+id: R29
+complex: 636
+name: Jay Street–MetroTech
+borough: Bk
+loc_lat: 40.69218
+loc_lon: -73.985942
+lines: [BMT Broadway]
+services: [R]
+visited: No
+---

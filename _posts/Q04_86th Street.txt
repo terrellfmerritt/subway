@@ -1,0 +1,12 @@
+---
+layout: station
+id: Q04
+complex: 476
+name: 86th Street
+borough: M
+loc_lat: 40.777891
+loc_lon: -73.951787
+lines: [IND Second Avenue]
+services: [Q]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: 123
+complex: 313
+name: 72nd Street
+borough: M
+loc_lat: 40.778453
+loc_lon: -73.98197
+lines: [IRT Broadway–Seventh Avenue]
+services: [1,2,3]
+visited: No
+---

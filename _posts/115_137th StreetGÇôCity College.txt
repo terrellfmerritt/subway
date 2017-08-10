@@ -1,0 +1,12 @@
+---
+layout: station
+id: 115
+complex: 305
+name: 137th Street–City College
+borough: M
+loc_lat: 40.822008
+loc_lon: -73.953676
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

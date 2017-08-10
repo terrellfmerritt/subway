@@ -1,0 +1,12 @@
+---
+layout: station
+id: R13
+complex: 8
+name: 5th Avenue–59th Street
+borough: M
+loc_lat: 40.764811
+loc_lon: -73.973347
+lines: [BMT Astoria]
+services: [N,W,R]
+visited: No
+---

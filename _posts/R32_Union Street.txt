@@ -1,0 +1,12 @@
+---
+layout: station
+id: R32
+complex: 28
+name: Union Street
+borough: Bk
+loc_lat: 40.677316
+loc_lon: -73.98311
+lines: [BMT Fourth Avenue]
+services: [R]
+visited: No
+---

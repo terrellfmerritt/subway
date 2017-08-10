@@ -1,0 +1,12 @@
+---
+layout: station
+id: R14
+complex: 9
+name: 57th Street–7th Avenue
+borough: M
+loc_lat: 40.764664
+loc_lon: -73.980658
+lines: [BMT Broadway]
+services: [N,Q,R,W]
+visited: No
+---

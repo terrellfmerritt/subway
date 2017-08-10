@@ -1,0 +1,12 @@
+---
+layout: station
+id: 104
+complex: 295
+name: 231st Street
+borough: Bx
+loc_lat: 40.878856
+loc_lon: -73.904834
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

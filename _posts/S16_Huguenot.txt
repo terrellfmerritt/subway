@@ -1,0 +1,12 @@
+---
+layout: station
+id: S16
+complex: 516
+name: Huguenot
+borough: SI
+loc_lat: 40.533674
+loc_lon: -74.191794
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: S30
+complex: 502
+name: Tompkinsville
+borough: SI
+loc_lat: 40.636949
+loc_lon: -74.074835
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

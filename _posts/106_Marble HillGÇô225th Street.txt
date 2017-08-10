@@ -1,0 +1,12 @@
+---
+layout: station
+id: 106
+complex: 296
+name: Marble Hill–225th Street
+borough: M
+loc_lat: 40.874561
+loc_lon: -73.909831
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

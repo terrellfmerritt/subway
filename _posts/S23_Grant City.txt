@@ -1,0 +1,12 @@
+---
+layout: station
+id: S23
+complex: 509
+name: Grant City
+borough: SI
+loc_lat: 40.578965
+loc_lon: -74.109704
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

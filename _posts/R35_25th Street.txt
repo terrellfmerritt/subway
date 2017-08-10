@@ -1,0 +1,12 @@
+---
+layout: station
+id: R35
+complex: 31
+name: 25th Street
+borough: Bk
+loc_lat: 40.660397
+loc_lon: -73.998091
+lines: [BMT Fourth Avenue]
+services: [R]
+visited: No
+---

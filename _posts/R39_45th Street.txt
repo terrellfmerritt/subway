@@ -1,0 +1,12 @@
+---
+layout: station
+id: R39
+complex: 33
+name: 45th Street
+borough: Bk
+loc_lat: 40.648939
+loc_lon: -74.010006
+lines: [BMT Fourth Avenue]
+services: [R]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: R34
+complex: 30
+name: Prospect Avenue
+borough: Bk
+loc_lat: 40.665414
+loc_lon: -73.992872
+lines: [BMT Fourth Avenue]
+services: [R]
+visited: No
+---

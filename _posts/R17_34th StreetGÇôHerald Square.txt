@@ -1,0 +1,12 @@
+---
+layout: station
+id: R17
+complex: 607
+name: 34th Street–Herald Square
+borough: M
+loc_lat: 40.749567
+loc_lon: -73.98795
+lines: [BMT Broadway]
+services: [N,Q,R,W]
+visited: No
+---

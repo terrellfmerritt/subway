@@ -1,0 +1,12 @@
+---
+layout: station
+id: R23
+complex: 623
+name: Canal Street
+borough: M
+loc_lat: 40.719527
+loc_lon: -74.001775
+lines: [BMT Broadway]
+services: [R,W]
+visited: No
+---

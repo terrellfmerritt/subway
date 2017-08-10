@@ -1,0 +1,12 @@
+---
+layout: station
+id: S25
+complex: 507
+name: Dongan Hills
+borough: SI
+loc_lat: 40.588849
+loc_lon: -74.09609
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

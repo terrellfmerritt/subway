@@ -1,0 +1,12 @@
+---
+layout: station
+id: 110
+complex: 300
+name: 191st Street
+borough: M
+loc_lat: 40.855225
+loc_lon: -73.929412
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: R20
+complex: 602
+name: 14th Street–Union Square
+borough: M
+loc_lat: 40.735736
+loc_lon: -73.990568
+lines: [BMT Broadway]
+services: [N,Q,R,W]
+visited: No
+---

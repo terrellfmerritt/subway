@@ -1,0 +1,12 @@
+---
+layout: station
+id: 112
+complex: 605
+name: 168th Street–Washington Heights
+borough: M
+loc_lat: 40.840556
+loc_lon: -73.940133
+lines: [IRT Broadway–Seventh Avenue]
+services: [1]
+visited: No
+---

@@ -1,0 +1,12 @@
+---
+layout: station
+id: S17
+complex: 515
+name: Annadale
+borough: SI
+loc_lat: 40.54046
+loc_lon: -74.178217
+lines: [Staten Island Railway]
+services: [SIR]
+visited: No
+---

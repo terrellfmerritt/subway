@@ -1,0 +1,12 @@
+---
+layout: station
+id: R42
+complex: 36
+name: Bay Ridge Avenue
+borough: Bk
+loc_lat: 40.634967
+loc_lon: -74.023377
+lines: [BMT Fourth Avenue]
+services: [R]
+visited: No
+---
