@@ -16,5 +16,6 @@ layout: home
 	{% if station.visited = "yes" %}
 		{% capture visited %}{{ visited | plus:1 }}{% endcapture %}
 	{% endif %}
-
+{% endfor %}
+	
 <p>I have visited {{ visited }} stations of the New York City Subway.</p>
