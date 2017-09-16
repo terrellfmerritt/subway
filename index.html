@@ -9,13 +9,13 @@ layout: home
 
 {% assign visited = 0 $}
 
-{% for station in site.data.stations %}
+{% for station in site.data.stations limit:50 %}
 	<p>
 		<strong>{{ station.stop_name }}</strong> ({{ station.line }}) | Visited? {{ station.visited }}
 	</p>
 	{% if station.visited = "yes" %}
 		{% capture visited %}{{ visited | plus:1 }}{% endcapture %}
 	{% endif %}
-{% break %}
+{% endfor %}
 	
 <p>I have visited {{ visited }} stations of the New York City Subway.</p>
