@@ -7,9 +7,9 @@ layout: home
   Testing a way to keep track of how many New York City Subway stations I have visited. See below.
 </p>
 
-{% assign visited = 0 $}
+{% assign visited = 0 %}
 
-{% for station in site.data.stations limit:50 %}
+{% for station in site.data.stations %}
 	<p>
 		<strong>{{ station.stop_name }}</strong> ({{ station.line }}) | Visited? {{ station.visited }}
 	</p>
