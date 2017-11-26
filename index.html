@@ -8,7 +8,10 @@ layout: home
 </p>
 
 {% for station in site.data.stations %}
+	<h2>BMT Astoria Line</h2>
+	{% if line = "BMT Astoria" %}
 	<p>
 		<strong>{{ station.stop_name }}</strong> ({{ station.line }}) | Visited? {{ station.visited }}
 	</p>
+	{% endif %}
 {% endfor %}
