@@ -9,7 +9,7 @@ layout: home
 
 {% for station in site.data.stations %}
 	<p>
-		<strong><a href="https://www.google.com/maps/?q={{ station.gfts_lat }},{{ station.gfts_lon }}"{{ station.stop_name }}</a></strong> 
+		<strong><a href="https://www.google.com/maps/?q={{ station.gtfs_lat }},{{ station.gtfs_lon }}">{{ station.stop_name }}</a></strong> 
 		{% for route in station.routes %}({{ route }}){% endfor %} | 
 		{% if station.visited == "yes" %}<i class="fa fa-check" aria-hidden="true"></i>{% endif %}
 		{% if station.visited == "no" %}<i class="fa fa-close" aria-hidden="true"></i>{% endif %}
