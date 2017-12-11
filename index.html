@@ -8,6 +8,9 @@ layout: home
 </p>
 
 {% for station in site.data.stations %}
+	{% if station.station_ID == "LINE" or station.station_ID == "LINES" %}
+		<h2>{{ station.line }} {% if station.station_ID == "LINE" %}Line{% else %}Lines{% endif %}</h2>
+	{% else %}
 	<p>
 		{% if station.visited == "yes" %}<i class="fa fa-check" aria-hidden="true"></i>{% endif %}
 		{% if station.visited == "no" %}<i class="fa fa-close" aria-hidden="true"></i>{% endif %} | 
@@ -15,4 +18,5 @@ layout: home
 		{% for route in station.routes %}({{ route }}){% endfor %}
 		<a href="https://www.google.com/maps/?q={{ station.gtfs_lat }},{{ station.gtfs_lon }}"><i class="fa fa-map-marker aria-hidden="true"></i></a>
 	</p>
+	{% endif %}
 {% endfor %}
