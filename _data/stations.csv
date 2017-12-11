@@ -1,473 +1,510 @@
-station_ID,complex_ID,gtfs_ID,line,stop_name,borough,routes,structure,gtfs_lat,gtfs_lon,visited
-1,1,R01,BMT Astoria,Astoria–Ditmars Boulevard,Queens,"N,W",Elevated,40.775036,-73.912034,yes
-2,2,R03,BMT Astoria,Astoria Boulevard,Queens,"N,W",Elevated,40.770258,-73.917843,yes
-3,3,R04,BMT Astoria,30th Avenue,Queens,"N,W",Elevated,40.766779,-73.921479,yes
-4,4,R05,BMT Astoria,Broadway,Queens,"N,W",Elevated,40.761820,-73.925508,yes
-5,5,R06,BMT Astoria,36th Avenue,Queens,"N,W",Elevated,40.756804,-73.929575,yes
-6,6,R08,BMT Astoria,39th Avenue,Queens,"N,W",Elevated,40.752882,-73.932755,no
-7,613,R11,BMT Broadway,Lexington Avenue–59th Street,Manhattan,"N,W,R",Subway,40.762660,-73.967258,yes
-8,8,R13,BMT Broadway,5th Avenue–59th Street,Manhattan,"N,W,R",Subway,40.764811,-73.973347,yes
-9,9,R14,BMT Broadway,57th Street–7th Avenue,Manhattan,"N,Q,R,W",Subway,40.764664,-73.980658,yes
-10,10,R15,BMT Broadway,49th Street,Manhattan,"N,R,W",Subway,40.759901,-73.984139,yes
-11,611,R16,BMT Broadway,Times Square–42nd Street,Manhattan,"N,Q,R,W",Subway,40.754672,-73.986754,yes
-12,607,R17,BMT Broadway,34th Street–Herald Square,Manhattan,"N,Q,R,W",Subway,40.749567,-73.987950,yes
-13,13,R18,BMT Broadway,28th Street,Manhattan,"R,W",Subway,40.745494,-73.988691,no
-14,14,R19,BMT Broadway,23rd Street,Manhattan,"R,W",Subway,40.741303,-73.989344,yes
-15,602,R20,BMT Broadway,14th Street–Union Square,Manhattan,"N,Q,R,W",Subway,40.735736,-73.990568,yes
-16,16,R21,BMT Broadway,8th Street–New York University,Manhattan,"R,W",Subway,40.730328,-73.992629,yes
-17,17,R22,BMT Broadway,Prince Street,Manhattan,"R,W",Subway,40.724329,-73.997702,yes
-18,623,R23,BMT Broadway,Canal Street,Manhattan,"R,W",Subway,40.719527,-74.001775,yes
-19,623,Q01,BMT Broadway,Canal Street,Manhattan,"N,Q",Subway,40.718383,-74.000460,yes
-20,20,R24,BMT Broadway,City Hall,Manhattan,"R,W",Subway,40.713282,-74.006978,no
-21,21,R25,BMT Broadway,Cortlandt Street,Manhattan,"R,W",Subway,40.710668,-74.011029,no
-22,22,R26,BMT Broadway,Rector Street,Manhattan,"R,W",Subway,40.707220,-74.013342,yes
-23,635,R27,BMT Broadway,Whitehall Street,Manhattan,"R,W",Subway,40.703087,-74.012994,yes
-24,620,R28,BMT Fourth Avenue,Court Street,Brooklyn,R,Subway,40.694100,-73.991777,no
-25,636,R29,BMT Fourth Avenue,Jay Street–MetroTech,Brooklyn,R,Subway,40.692180,-73.985942,yes
-26,26,R30,BMT Fourth Avenue,DeKalb Avenue,Brooklyn,"B,Q,R",Subway,40.690635,-73.981824,yes
-27,617,R31,BMT Fourth Avenue,Atlantic Avenue–Barclays Center,Brooklyn,"D,N,R",Subway,40.683666,-73.978810,yes
-28,28,R32,BMT Fourth Avenue,Union Street,Brooklyn,R,Subway,40.677316,-73.983110,no
-29,608,R33,BMT Fourth Avenue,9th Street,Brooklyn,R,Subway,40.670847,-73.988302,yes
-30,30,R34,BMT Fourth Avenue,Prospect Avenue,Brooklyn,R,Subway,40.665414,-73.992872,yes
-31,31,R35,BMT Fourth Avenue,25th Street,Brooklyn,R,Subway,40.660397,-73.998091,no
-32,32,R36,BMT Fourth Avenue,36th Street,Brooklyn,"D,N,R",Subway,40.655144,-74.003549,yes
-33,33,R39,BMT Fourth Avenue,45th Street,Brooklyn,R,Subway,40.648939,-74.010006,no
-34,34,R40,BMT Fourth Avenue,53rd Street,Brooklyn,R,Subway,40.645069,-74.014034,no
-35,35,R41,BMT Fourth Avenue,59th Street,Brooklyn,"N,R",Subway,40.641362,-74.017881,yes
-36,36,R42,BMT Fourth Avenue,Bay Ridge Avenue,Brooklyn,R,Subway,40.634967,-74.023377,yes
-37,37,R43,BMT Fourth Avenue,77th Street,Brooklyn,R,Subway,40.629742,-74.025510,no
-38,38,R44,BMT Fourth Avenue,86th Street,Brooklyn,R,Subway,40.622687,-74.028398,yes
-39,39,R45,BMT Fourth Avenue,Bay Ridge–95th Street,Brooklyn,R,Subway,40.616622,-74.030876,yes
-40,617,D24,BMT Brighton,Atlantic Avenue–Barclays Center,Brooklyn,"B,Q",Subway,40.684460,-73.976890,yes
-41,41,D25,BMT Brighton,7th Avenue,Brooklyn,"B,Q",Subway,40.677050,-73.972367,no
-42,42,D26,BMT Brighton,Prospect Park,Brooklyn,"B,Q",Open Cut,40.661614,-73.962246,yes
-43,43,D27,BMT Brighton,Parkside Avenue,Brooklyn,"B,Q",Open Cut,40.655292,-73.961495,no
-44,44,D28,BMT Brighton,Church Avenue,Brooklyn,"B,Q",Open Cut,40.650527,-73.962982,no
-45,45,D29,BMT Brighton,Beverley Road,Brooklyn,"B,Q",Open Cut,40.644031,-73.964492,no
-46,46,D30,BMT Brighton,Cortelyou Road,Brooklyn,"B,Q",Open Cut,40.640927,-73.963891,no
-47,47,D31,BMT Brighton,Newkirk Plaza,Brooklyn,"B,Q",Open Cut,40.635082,-73.962793,no
-48,48,D32,BMT Brighton,Avenue H,Brooklyn,"B,Q",Open Cut,40.629270,-73.961639,no
-49,49,D33,BMT Brighton,Avenue J,Brooklyn,"B,Q",Open Cut,40.625039,-73.960803,no
-50,50,D34,BMT Brighton,Avenue M,Brooklyn,"B,Q",Open Cut,40.617618,-73.959399,no
-51,51,D35,BMT Brighton,Kings Highway,Brooklyn,"B,Q",Open Cut,40.608670,-73.957734,yes
-52,52,D37,BMT Brighton,Avenue U,Brooklyn,"B,Q",Open Cut,40.599300,-73.955929,yes
-53,53,D38,BMT Brighton,Neck Road,Brooklyn,"B,Q",Open Cut,40.595246,-73.955161,no
-54,54,D39,BMT Brighton,Sheepshead Bay,Brooklyn,"B,Q",Open Cut,40.586896,-73.954155,no
-55,55,D40,BMT Brighton,Brighton Beach,Brooklyn,"B,Q",Elevated,40.577621,-73.961376,yes
-56,56,D41,BMT Brighton,Ocean Parkway,Brooklyn,Q,Elevated,40.576312,-73.968501,no
-57,57,D42,"BMT Brighton, IND Culver",West 8th Street–New York Aquarium,Brooklyn,"F,Q",Elevated,40.576127,-73.975939,no
-58,58,D43,"BMT Sea Beach, BMT West End, IND Culver, BMT Brighton",Coney Island–Stillwell Avenue,Brooklyn,"D,F,N,Q",Viaduct,40.577422,-73.981233,yes
-59,59,B12,BMT West End,9th Avenue,Brooklyn,D,Open Cut,40.646292,-73.994324,no
-60,60,B13,BMT West End,Fort Hamilton Parkway,Brooklyn,D,Elevated,40.640914,-73.994304,no
-61,61,B14,BMT West End,50th Street,Brooklyn,D,Elevated,40.636260,-73.994791,no
-62,62,B15,BMT West End,55th Street,Brooklyn,D,Elevated,40.631435,-73.995476,no
-63,615,B16,BMT West End,62nd Street,Brooklyn,D,Elevated,40.626472,-73.996895,yes
-64,64,B17,BMT West End,71st Street,Brooklyn,D,Elevated,40.619589,-73.998864,no
-65,65,B18,BMT West End,79th Street,Brooklyn,D,Elevated,40.613501,-74.000610,no
-66,66,B19,BMT West End,18th Avenue,Brooklyn,D,Elevated,40.607954,-74.001736,no
-67,67,B20,BMT West End,20th Avenue,Brooklyn,D,Elevated,40.604556,-73.998168,yes
-68,68,B21,BMT West End,Bay Parkway,Brooklyn,D,Elevated,40.601875,-73.993728,yes
-69,69,B22,BMT West End,25th Avenue,Brooklyn,D,Elevated,40.597704,-73.986829,no
-70,70,B23,BMT West End,Bay 50th Street,Brooklyn,D,Elevated,40.588841,-73.983765,no
-71,71,N02,BMT Sea Beach,8th Avenue,Brooklyn,N,Open Cut,40.635064,-74.011719,yes
-72,72,N03,BMT Sea Beach,Fort Hamilton Parkway,Brooklyn,N,Open Cut,40.631386,-74.005351,yes
-73,615,N04,BMT Sea Beach,New Utrecht Avenue,Brooklyn,N,Open Cut,40.624842,-73.996353,yes
-74,74,N05,BMT Sea Beach,18th Avenue,Brooklyn,N,Open Cut,40.620671,-73.990414,no
-75,75,N06,BMT Sea Beach,20th Avenue,Brooklyn,N,Open Cut,40.617410,-73.985026,no
-76,76,N07,BMT Sea Beach,Bay Parkway,Brooklyn,N,Open Cut,40.611815,-73.981848,no
-77,77,N08,BMT Sea Beach,Kings Highway,Brooklyn,N,Open Cut,40.603923,-73.980353,no
-78,78,N09,BMT Sea Beach,Avenue U,Brooklyn,N,Open Cut,40.597473,-73.979137,no
-79,79,N10,BMT Sea Beach,86th Street,Brooklyn,N,Open Cut,40.592721,-73.978230,no
-80,80,J12,BMT Jamaica,121st Street,Queens,"J,Z",Elevated,40.700492,-73.828294,no
-81,81,J13,BMT Jamaica,111th Street,Queens,J,Elevated,40.697418,-73.836345,no
-82,82,J14,BMT Jamaica,104th Street,Queens,"J,Z",Elevated,40.695178,-73.844330,no
-83,83,J15,BMT Jamaica,Woodhaven Boulevard,Queens,"J,Z",Elevated,40.693879,-73.851576,yes
-84,84,J16,BMT Jamaica,85th Street–Forest Parkway,Queens,J,Elevated,40.692435,-73.860010,no
-85,85,J17,BMT Jamaica,75th Street–Elderts Lane,Queens,"J,Z",Elevated,40.691324,-73.867139,no
-86,86,J19,BMT Jamaica,Cypress Hills,Brooklyn,J,Elevated,40.689941,-73.872550,no
-87,87,J20,BMT Jamaica,Crescent Street,Brooklyn,"J,Z",Elevated,40.683194,-73.873785,no
-88,88,J21,BMT Jamaica,Norwood Avenue,Brooklyn,"J,Z",Elevated,40.681410,-73.880039,no
-89,89,J22,BMT Jamaica,Cleveland Street,Brooklyn,J,Elevated,40.679947,-73.884639,no
-90,90,J23,BMT Jamaica,Van Siclen Avenue,Brooklyn,"J,Z",Elevated,40.678024,-73.891688,no
-91,91,J24,BMT Jamaica,Alabama Avenue,Brooklyn,J,Elevated,40.676992,-73.898654,no
-92,621,J27,BMT Jamaica,Broadway Junction,Brooklyn,"J,Z",Elevated,40.679498,-73.904512,yes
-93,93,J28,BMT Jamaica,Chauncey Street,Brooklyn,"J,Z",Elevated,40.682893,-73.910456,no
-94,94,J29,BMT Jamaica,Halsey Street,Brooklyn,J,Elevated,40.686370,-73.916559,no
-95,95,J30,BMT Jamaica,Gates Avenue,Brooklyn,"J,Z",Elevated,40.689630,-73.922270,no
-96,96,J31,BMT Jamaica,Kosciuszko Street,Brooklyn,J,Elevated,40.693342,-73.928814,no
-97,97,M11,BMT Jamaica,Myrtle Avenue,Brooklyn,"J,M,Z",Elevated,40.697207,-73.935657,yes
-98,98,M12,BMT Jamaica,Flushing Avenue,Brooklyn,"J,M",Elevated,40.700260,-73.941126,no
-99,99,M13,BMT Jamaica,Lorimer Street,Brooklyn,"J,M",Elevated,40.703869,-73.947408,no
-100,100,M14,BMT Jamaica,Hewes Street,Brooklyn,"J,M",Elevated,40.706870,-73.953431,no
-101,101,M16,BMT Jamaica,Marcy Avenue,Brooklyn,"J,M,Z",Elevated,40.708359,-73.957757,yes
-102,625,M18,BMT Nassau Street,Essex Street,Manhattan,"J,M,Z",Subway,40.718315,-73.987437,yes
-103,103,M19,BMT Nassau Street,Bowery,Manhattan,"J,Z",Subway,40.720280,-73.993915,yes
-104,623,M20,BMT Nassau Street,Canal Street,Manhattan,"J,Z",Subway,40.718092,-73.999892,yes
-105,622,M21,BMT Nassau Street,Chambers Street,Manhattan,"J,Z",Subway,40.713243,-74.003401,yes
-106,628,M22,BMT Nassau Street,Fulton Street,Manhattan,"J,Z",Subway,40.710374,-74.007582,yes
-107,107,M23,BMT Nassau Street,Broad Street,Manhattan,"J,Z",Subway,40.706476,-74.011056,no
-108,108,M01,BMT Myrtle Avenue,Middle Village–Metropolitan Avenue,Queens,M,Elevated,40.711396,-73.889601,no
-109,109,M04,BMT Myrtle Avenue,Fresh Pond Road,Queens,M,Elevated,40.706186,-73.895877,no
-110,110,M05,BMT Myrtle Avenue,Forest Avenue,Queens,M,Elevated,40.704423,-73.903077,yes
-111,111,M06,BMT Myrtle Avenue,Seneca Avenue,Queens,M,Elevated,40.702762,-73.907740,yes
-112,630,M08,BMT Myrtle Avenue,Myrtle–Wyckoff Avenues,Brooklyn,M,Elevated,40.699430,-73.912385,yes
-113,113,M09,BMT Myrtle Avenue,Knickerbocker Avenue,Brooklyn,M,Elevated,40.698664,-73.919711,no
-114,114,M10,BMT Myrtle Avenue,Central Avenue,Brooklyn,M,Elevated,40.697857,-73.927397,no
-115,618,L01,BMT Canarsie,8th Avenue,Manhattan,L,Subway,40.739777,-74.002578,yes
-116,601,L02,BMT Canarsie,6th Avenue,Manhattan,L,Subway,40.737335,-73.996786,yes
-117,602,L03,BMT Canarsie,Union Square,Manhattan,L,Subway,40.734789,-73.990730,yes
-118,118,L05,BMT Canarsie,3rd Avenue,Manhattan,L,Subway,40.732849,-73.986122,no
-119,119,L06,BMT Canarsie,1st Avenue,Manhattan,L,Subway,40.730953,-73.981628,yes
-120,120,L08,BMT Canarsie,Bedford Avenue,Brooklyn,L,Subway,40.717304,-73.956872,yes
-121,629,L10,BMT Canarsie,Lorimer Street,Brooklyn,L,Subway,40.714063,-73.950275,yes
-122,122,L11,BMT Canarsie,Graham Avenue,Brooklyn,L,Subway,40.714565,-73.944053,no
-123,123,L12,BMT Canarsie,Grand Street,Brooklyn,L,Subway,40.711926,-73.940670,no
-124,124,L13,BMT Canarsie,Montrose Avenue,Brooklyn,L,Subway,40.707739,-73.939850,no
-125,125,L14,BMT Canarsie,Morgan Avenue,Brooklyn,L,Subway,40.706152,-73.933147,no
-126,126,L15,BMT Canarsie,Jefferson Street,Brooklyn,L,Subway,40.706607,-73.922913,no
-127,127,L16,BMT Canarsie,DeKalb Avenue,Brooklyn,L,Subway,40.703811,-73.918425,no
-128,630,L17,BMT Canarsie,Myrtle–Wyckoff Avenues,Brooklyn,L,Subway,40.699814,-73.911586,yes
-129,129,L19,BMT Canarsie,Halsey Street,Queens,L,Subway,40.695602,-73.904084,no
-130,130,L20,BMT Canarsie,Wilson Avenue,Brooklyn,L,Subway,40.688764,-73.904046,no
-131,131,L21,BMT Canarsie,Bushwick Avenue–Aberdeen Street,Brooklyn,L,Subway,40.682829,-73.905249,no
-132,621,L22,BMT Canarsie,Broadway Junction,Brooklyn,L,Elevated,40.678856,-73.903240,yes
-133,133,L24,BMT Canarsie,Atlantic Avenue,Brooklyn,L,Elevated,40.675345,-73.903097,no
-134,134,L25,BMT Canarsie,Sutter Avenue,Brooklyn,L,Elevated,40.669367,-73.901975,no
-135,135,L26,BMT Canarsie,Livonia Avenue,Brooklyn,L,Elevated,40.664038,-73.900571,no
-136,136,L27,BMT Canarsie,New Lots Avenue,Brooklyn,L,Elevated,40.658733,-73.899232,no
-137,137,L28,BMT Canarsie,East 105th Street,Brooklyn,L,At Grade,40.650573,-73.899485,no
-138,138,L29,BMT Canarsie,Canarsie–Rockaway Parkway,Brooklyn,L,At Grade,40.646654,-73.901850,yes
-139,627,S01,BMT Franklin Avenue,Franklin Avenue,Brooklyn,S,Elevated,40.680596,-73.955827,yes
-141,141,S03,BMT Franklin Avenue,Park Place,Brooklyn,S,Open Cut,40.674772,-73.957624,no
-142,626,S04,BMT Franklin Avenue,Botanic Garden,Brooklyn,S,Open Cut,40.670343,-73.959245,yes
-143,143,A02,IND Eighth Avenue,Inwood–207th Street,Manhattan,A,Subway,40.868072,-73.919899,yes
-144,144,A03,IND Eighth Avenue,Dyckman Street,Manhattan,A,Subway,40.865491,-73.927271,yes
-145,145,A05,IND Eighth Avenue,190th Street,Manhattan,A,Subway,40.859022,-73.934180,yes
-146,146,A06,IND Eighth Avenue,181st Street,Manhattan,A,Subway,40.851695,-73.937969,yes
-147,147,A07,IND Eighth Avenue,175th Street,Manhattan,A,Subway,40.847391,-73.939704,yes
-148,605,A09,IND Eighth Avenue,168th Street,Manhattan,"A,C",Subway,40.840719,-73.939561,yes
-149,149,A10,IND Eighth Avenue,163rd Street–Amsterdam Avenue,Manhattan,C,Subway,40.836013,-73.939892,no
-150,150,A11,IND Eighth Avenue,155th Street,Manhattan,C,Subway,40.830518,-73.941514,no
-151,151,A12,IND Eighth Avenue,145th Street,Manhattan,"A,B,C,D",Subway,40.824783,-73.944216,yes
-152,152,A14,IND Eighth Avenue,135th Street,Manhattan,"B,C",Subway,40.817894,-73.947649,yes
-153,153,A15,IND Eighth Avenue,125th Street,Manhattan,"A,B,C,D",Subway,40.811109,-73.952343,yes
-154,154,A16,IND Eighth Avenue,116th Street,Manhattan,"B,C",Subway,40.805085,-73.954882,no
-155,155,A17,IND Eighth Avenue,Cathedral Parkway–110th Street,Manhattan,"B,C",Subway,40.800603,-73.958161,yes
-156,156,A18,IND Eighth Avenue,103rd Street,Manhattan,"B,C",Subway,40.796092,-73.961454,no
-157,157,A19,IND Eighth Avenue,96th Street,Manhattan,"B,C",Subway,40.791642,-73.964696,yes
-158,158,A20,IND Eighth Avenue,86th Street,Manhattan,"B,C",Subway,40.785868,-73.968916,no
-159,159,A21,IND Eighth Avenue,81st Street–Museum of Natural History,Manhattan,"B,C",Subway,40.781433,-73.972143,yes
-160,160,A22,IND Eighth Avenue,72nd Street,Manhattan,"B,C",Subway,40.775594,-73.976410,yes
-161,614,A24,IND Eighth Avenue,59th Street–Columbus Circle,Manhattan,"A,B,C,D",Subway,40.768296,-73.981736,yes
-162,162,A25,"IND Eighth Avenue, IND Queens Boulevard",50th Street,Manhattan,"C,E",Subway,40.762456,-73.985984,yes
-163,611,A27,IND Eighth Avenue,42nd Street–Port Authority Bus Terminal,Manhattan,"A,C,E",Subway,40.757308,-73.989735,yes
-164,164,A28,IND Eighth Avenue,34th Street–Penn Station,Manhattan,"A,C,E",Subway,40.752287,-73.993391,yes
-165,165,A30,IND Eighth Avenue,23rd Street,Manhattan,"C,E",Subway,40.745906,-73.998041,no
-166,618,A31,IND Eighth Avenue,14th Street,Manhattan,"A,C,E",Subway,40.740893,-74.001690,yes
-167,167,A32,"IND Eighth Avenue, IND Sixth Avenue",West 4th Street–Washington Square,Manhattan,"A,B,C,D,E,F,M",Subway,40.732338,-74.000495,yes
-168,168,A33,IND Eighth Avenue,Spring Street,Manhattan,"C,E",Subway,40.726227,-74.003739,no
-169,169,A34,IND Eighth Avenue,Canal Street,Manhattan,"A,C,E",Subway,40.720824,-74.005229,no
-170,624,A36,IND Eighth Avenue,Chambers Street,Manhattan,"A,C",Subway,40.714111,-74.008585,yes
-171,624,E01,IND Eighth Avenue,World Trade Center,Manhattan,E,Subway,40.712582,-74.009781,yes
-172,628,A38,IND Eighth Avenue,Fulton Street,Manhattan,"A,C",Subway,40.710197,-74.007691,yes
-173,173,A40,IND Eighth Avenue,High Street,Brooklyn,"A,C",Subway,40.699337,-73.990531,yes
-174,636,A41,"IND Fulton Street, IND Culver",Jay Street–MetroTech,Brooklyn,"A,C,F",Subway,40.692338,-73.987342,yes
-175,175,A42,"IND Fulton Street, IND Crosstown",Hoyt–Schermerhorn Streets,Brooklyn,"A,C,G",Subway,40.688484,-73.985001,yes
-176,176,A43,IND Fulton Street,Lafayette Avenue,Brooklyn,C,Subway,40.686113,-73.973946,no
-177,177,A44,IND Fulton Street,Clinton–Washington Avenues,Brooklyn,C,Subway,40.683263,-73.965838,no
-178,627,A45,IND Fulton Street,Franklin Avenue,Brooklyn,C,Subway,40.681380,-73.956848,yes
-179,179,A46,IND Fulton Street,Nostrand Avenue,Brooklyn,"A,C",Subway,40.680438,-73.950426,yes
-180,180,A47,IND Fulton Street,Kingston–Throop Avenues,Brooklyn,C,Subway,40.679921,-73.940858,no
-181,181,A48,IND Fulton Street,Utica Avenue,Brooklyn,"A,C",Subway,40.679364,-73.930729,yes
-182,182,A49,IND Fulton Street,Ralph Avenue,Brooklyn,C,Subway,40.678822,-73.920786,yes
-183,183,A50,IND Fulton Street,Rockaway Avenue,Brooklyn,C,Subway,40.678340,-73.911946,no
-184,621,A51,IND Fulton Street,Broadway Junction,Brooklyn,"A,C",Subway,40.678334,-73.905316,yes
-185,185,A52,IND Fulton Street,Liberty Avenue,Brooklyn,C,Subway,40.674542,-73.896548,no
-186,186,A53,IND Fulton Street,Van Siclen Avenue,Brooklyn,C,Subway,40.672710,-73.890358,no
-187,187,A54,IND Fulton Street,Shepherd Avenue,Brooklyn,C,Subway,40.674130,-73.880750,no
-188,188,A55,IND Fulton Street,Euclid Avenue,Brooklyn,"A,C",Subway,40.675377,-73.872106,yes
-189,189,A57,IND Fulton Street,Grant Avenue,Brooklyn,A,Subway,40.677044,-73.865050,no
-190,190,A59,IND Fulton Street,80th Street,Queens,A,Elevated,40.679371,-73.858992,no
-191,191,A60,IND Fulton Street,88th Street,Queens,A,Elevated,40.679843,-73.851470,no
-192,192,A61,IND Fulton Street,Rockaway Boulevard,Queens,A,Elevated,40.680429,-73.843853,yes
-193,193,A63,IND Fulton Street,104th Street,Queens,A,Elevated,40.681711,-73.837683,no
-194,194,A64,IND Fulton Street,111th Street,Queens,A,Elevated,40.684331,-73.832163,no
-195,195,A65,IND Fulton Street,Ozone Park–Lefferts Boulevard,Queens,A,Elevated,40.685951,-73.825798,no
-196,196,H01,IND Rockaway,Aqueduct Racetrack,Queens,A,At Grade,40.672097,-73.835919,no
-197,197,H02,IND Rockaway,Aqueduct–North Conduit Avenue,Queens,A,At Grade,40.668234,-73.834058,no
-198,198,H03,IND Rockaway,Howard Beach–JFK Airport,Queens,A,At Grade,40.660476,-73.830301,no
-199,199,H04,IND Rockaway,Broad Channel,Queens,"A,S",At Grade,40.608382,-73.815925,yes
-200,200,H12,IND Rockaway,Beach 90th Street,Queens,"A,S",Viaduct,40.588034,-73.813641,yes
-201,201,H13,IND Rockaway,Beach 98th Street,Queens,"A,S",Viaduct,40.585307,-73.820558,no
-202,202,H14,IND Rockaway,Beach 105th Street,Queens,"A,S",Viaduct,40.583209,-73.827559,no
-203,203,H15,IND Rockaway,Rockaway Park–Beach 116th Street,Queens,"A,S",At Grade,40.580903,-73.835592,no
-204,204,H06,IND Rockaway,Beach 67th Street,Queens,A,Viaduct,40.590927,-73.796924,no
-205,205,H07,IND Rockaway,Beach 60th Street,Queens,A,Viaduct,40.592374,-73.788522,no
-206,206,H08,IND Rockaway,Beach 44th Street,Queens,A,Viaduct,40.592943,-73.776013,no
-207,207,H09,IND Rockaway,Beach 36th Street,Queens,A,Viaduct,40.595398,-73.768175,no
-208,208,H10,IND Rockaway,Beach 25th Street,Queens,A,Viaduct,40.600066,-73.761353,no
-209,209,H11,IND Rockaway,Far Rockaway–Mott Avenue,Queens,A,Viaduct,40.603995,-73.755405,no
-210,210,D01,IND Concourse,Norwood–205th Street,Bronx,D,Subway,40.874811,-73.878855,yes
-211,211,D03,IND Concourse,Bedford Park Boulevard,Bronx,"B,D",Subway,40.873244,-73.887138,yes
-212,212,D04,IND Concourse,Kingsbridge Road,Bronx,"B,D",Subway,40.866978,-73.893509,yes
-213,213,D05,IND Concourse,Fordham Road,Bronx,"B,D",Subway,40.861296,-73.897749,yes
-214,214,D06,IND Concourse,182nd–183rd Streets,Bronx,"B,D",Subway,40.856093,-73.900741,no
-215,215,D07,IND Concourse,Tremont Avenue,Bronx,"B,D",Subway,40.850410,-73.905227,no
-216,216,D08,IND Concourse,174th–175th Streets,Bronx,"B,D",Subway,40.845900,-73.910136,yes
-217,217,D09,IND Concourse,170th Street,Bronx,"B,D",Subway,40.839306,-73.913400,no
-218,218,D10,IND Concourse,167th Street,Bronx,"B,D",Subway,40.833771,-73.918440,no
-219,604,D11,IND Concourse,161st Street–Yankee Stadium,Bronx,"B,D",Subway,40.827905,-73.925651,yes
-220,220,D12,IND Concourse,155th Street,Manhattan,"B,D",Subway,40.830135,-73.938209,no
-221,221,B04,IND 63rd Street,21st Street–Queensbridge,Queens,F,Subway,40.754203,-73.942836,yes
-222,222,B06,IND 63rd Street,Roosevelt Island,Manhattan,F,Subway,40.759145,-73.953260,yes
-223,223,B08,"IND 63rd Street, BMT 63rd Street",Lexington Avenue–63rd Street,Manhattan,"F,Q",Subway,40.764629,-73.966113,yes
-224,224,B10,IND Sixth Avenue,57th Street,Manhattan,F,Subway,40.763972,-73.977450,yes
-225,225,D15,IND Sixth Avenue,47th–50th Streets–Rockefeller Center,Manhattan,"B,D,F,M",Subway,40.758663,-73.981329,yes
-226,609,D16,IND Sixth Avenue,42nd Street–Bryant Park,Manhattan,"B,D,F,M",Subway,40.754222,-73.984569,yes
-227,607,D17,IND Sixth Avenue,34th Street–Herald Square,Manhattan,"B,D,F,M",Subway,40.749719,-73.987823,yes
-228,228,D18,IND Sixth Avenue,23rd Street,Manhattan,"F,M",Subway,40.742878,-73.992821,no
-229,601,D19,IND Sixth Avenue,14th Street,Manhattan,"F,M",Subway,40.738228,-73.996209,yes
-230,619,D21,IND Sixth Avenue,Broadway–Lafayette Street,Manhattan,"B,D,F,M",Subway,40.725297,-73.996204,yes
-231,231,D22,IND Sixth Avenue,Grand Street,Manhattan,"B,D",Subway,40.718267,-73.993753,yes
-232,232,F14,IND Sixth Avenue,2nd Avenue,Manhattan,F,Subway,40.723402,-73.989938,yes
-233,625,F15,IND Sixth Avenue,Delancey Street,Manhattan,F,Subway,40.718611,-73.988114,yes
-234,234,F16,IND Sixth Avenue,East Broadway,Manhattan,F,Subway,40.713715,-73.990173,yes
-235,235,F18,IND Sixth Avenue,York Street,Brooklyn,F,Subway,40.701397,-73.986751,yes
-236,236,F20,IND Culver,Bergen Street,Brooklyn,"F,G",Subway,40.686145,-73.990862,no
-237,237,F21,IND Culver,Carroll Street,Brooklyn,"F,G",Subway,40.680303,-73.995048,no
-238,238,F22,IND Culver,Smith–9th Streets,Brooklyn,"F,G",Viaduct,40.673580,-73.995959,no
-239,608,F23,IND Culver,4th Avenue,Brooklyn,"F,G",Viaduct,40.670272,-73.989779,yes
-240,240,F24,IND Culver,7th Avenue,Brooklyn,"F,G",Subway,40.666271,-73.980305,yes
-241,241,F25,IND Culver,15th Street–Prospect Park,Brooklyn,"F,G",Subway,40.660365,-73.979493,no
-242,242,F26,IND Culver,Fort Hamilton Parkway,Brooklyn,"F,G",Subway,40.650782,-73.975776,no
-243,243,F27,IND Culver,Church Avenue,Brooklyn,F,Subway,40.644041,-73.979678,no
-244,244,F29,IND Culver,Ditmas Avenue,Brooklyn,F,Elevated,40.636119,-73.978172,no
-245,245,F30,IND Culver,18th Avenue,Brooklyn,F,Elevated,40.629755,-73.976971,no
-246,246,F31,IND Culver,Avenue I,Brooklyn,F,Elevated,40.625322,-73.976127,no
-247,247,F32,IND Culver,Bay Parkway,Brooklyn,F,Elevated,40.620769,-73.975264,no
-248,248,F33,IND Culver,Avenue N,Brooklyn,F,Elevated,40.615140,-73.974197,no
-249,249,F34,IND Culver,Avenue P,Brooklyn,F,Elevated,40.608944,-73.973022,no
-250,250,F35,IND Culver,Kings Highway,Brooklyn,F,Elevated,40.603217,-73.972361,no
-251,251,F36,IND Culver,Avenue U,Brooklyn,F,Elevated,40.596063,-73.973357,no
-252,252,F38,IND Culver,Avenue X,Brooklyn,F,Elevated,40.589620,-73.974250,no
-253,253,F39,IND Culver,Neptune Avenue,Brooklyn,F,Elevated,40.581011,-73.974574,no
-254,254,F01,IND Queens Boulevard,Jamaica–179th Street,Queens,F,Subway,40.712646,-73.783817,yes
-255,255,F02,IND Queens Boulevard,169th Street,Queens,F,Subway,40.710470,-73.793604,no
-256,256,F03,IND Queens Boulevard,Parsons Boulevard,Queens,F,Subway,40.707564,-73.803326,yes
-257,257,F04,IND Queens Boulevard,Sutphin Boulevard,Queens,F,Subway,40.705460,-73.810708,no
-258,258,F05,IND Queens Boulevard,Briarwood,Queens,"E,F",Subway,40.709179,-73.820574,yes
-259,259,F06,IND Queens Boulevard,Kew Gardens–Union Turnpike,Queens,"E,F",Subway,40.714441,-73.831008,yes
-260,260,F07,IND Queens Boulevard,75th Avenue,Queens,"E,F",Subway,40.718331,-73.837324,yes
-261,261,G08,IND Queens Boulevard,Forest Hills–71st Avenue,Queens,"E,F,M,R",Subway,40.721691,-73.844521,yes
-262,262,G09,IND Queens Boulevard,67th Avenue,Queens,"M,R",Subway,40.726523,-73.852719,yes
-263,263,G10,IND Queens Boulevard,63rd Drive–Rego Park,Queens,"M,R",Subway,40.729846,-73.861604,yes
-264,264,G11,IND Queens Boulevard,Woodhaven Boulevard,Queens,"M,R",Subway,40.733106,-73.869229,yes
-265,265,G12,IND Queens Boulevard,Grand Avenue–Newtown,Queens,"M,R",Subway,40.737015,-73.877223,yes
-266,266,G13,IND Queens Boulevard,Elmhurst Avenue,Queens,"M,R",Subway,40.742454,-73.882017,yes
-267,616,G14,IND Queens Boulevard,Jackson Heights–Roosevelt Avenue,Queens,"E,F,M,R",Subway,40.746644,-73.891338,yes
-268,268,G15,IND Queens Boulevard,65th Street,Queens,"M,R",Subway,40.749669,-73.898453,no
-269,269,G16,IND Queens Boulevard,Northern Boulevard,Queens,"M,R",Subway,40.752885,-73.906006,yes
-270,270,G18,IND Queens Boulevard,46th Street,Queens,"M,R",Subway,40.756312,-73.913333,yes
-271,271,G19,IND Queens Boulevard,Steinway Street,Queens,"M,R",Subway,40.756879,-73.920740,yes
-272,272,G20,IND Queens Boulevard,36th Street,Queens,"M,R",Subway,40.752039,-73.928781,no
-273,273,G21,IND Queens Boulevard,Queens Plaza,Queens,"E,M,R",Subway,40.748973,-73.937243,yes
-274,606,F09,IND Queens Boulevard,Court Square,Queens,"E,M",Subway,40.747846,-73.946000,yes
-275,612,F11,IND Queens Boulevard,Lexington Avenue–53rd Street,Manhattan,"E,M",Subway,40.757552,-73.969055,yes
-276,276,F12,IND Queens Boulevard,5th Avenue–53rd Street,Manhattan,"E,M",Subway,40.760167,-73.975224,yes
-277,277,D14,IND Queens Boulevard,7th Avenue,Manhattan,"B,D,E",Subway,40.762862,-73.981637,yes
-278,278,G05,"IND Archer Avenue, BMT Archer Avenue",Jamaica Center–Parsons/Archer,Queens,"E,J,Z",Subway,40.702147,-73.801109,yes
-279,279,G06,"IND Archer Avenue, BMT Archer Avenue",Sutphin Boulevard–Archer Avenue–JFK Airport,Queens,"E,J,Z",Subway,40.700486,-73.807969,yes
-280,280,G07,IND Archer Avenue,Jamaica–Van Wyck,Queens,E,Subway,40.702566,-73.816859,yes
-281,606,G22,IND Crosstown,Court Square,Queens,G,Subway,40.746554,-73.943832,yes
-282,282,G24,IND Crosstown,21st Street,Queens,G,Subway,40.744065,-73.949724,no
-283,283,G26,IND Crosstown,Greenpoint Avenue,Brooklyn,G,Subway,40.731352,-73.954449,no
-284,284,G28,IND Crosstown,Nassau Avenue,Brooklyn,G,Subway,40.724635,-73.951277,no
-285,629,G29,IND Crosstown,Metropolitan Avenue,Brooklyn,G,Subway,40.712792,-73.951418,yes
-286,286,G30,IND Crosstown,Broadway,Brooklyn,G,Subway,40.706092,-73.950308,no
-287,287,G31,IND Crosstown,Flushing Avenue,Brooklyn,G,Subway,40.700377,-73.950234,no
-288,288,G32,IND Crosstown,Myrtle–Willoughby Avenues,Brooklyn,G,Subway,40.694568,-73.949046,no
-289,289,G33,IND Crosstown,Bedford–Nostrand Avenues,Brooklyn,G,Subway,40.689627,-73.953522,no
-290,290,G34,IND Crosstown,Classon Avenue,Brooklyn,G,Subway,40.688873,-73.960070,no
-291,291,G35,IND Crosstown,Clinton–Washington Avenues,Brooklyn,G,Subway,40.688089,-73.966839,no
-292,292,G36,IND Crosstown,Fulton Street,Brooklyn,G,Subway,40.687119,-73.975375,no
-293,293,101,IRT Broadway–Seventh Avenue,Van Cortlandt Park–242nd Street,Bronx,1,Elevated,40.889248,-73.898583,no
-294,294,103,IRT Broadway–Seventh Avenue,238th Street,Bronx,1,Elevated,40.884667,-73.900870,no
-295,295,104,IRT Broadway–Seventh Avenue,231st Street,Bronx,1,Elevated,40.878856,-73.904834,yes
-296,296,106,IRT Broadway–Seventh Avenue,Marble Hill–225th Street,Manhattan,1,Elevated,40.874561,-73.909831,no
-297,297,107,IRT Broadway–Seventh Avenue,215th Street,Manhattan,1,Elevated,40.869444,-73.915279,no
-298,298,108,IRT Broadway–Seventh Avenue,207th Street,Manhattan,1,Elevated,40.864621,-73.918822,yes
-299,299,109,IRT Broadway–Seventh Avenue,Dyckman Street,Manhattan,1,Elevated,40.860531,-73.925536,no
-300,300,110,IRT Broadway–Seventh Avenue,191st Street,Manhattan,1,Subway,40.855225,-73.929412,yes
-301,301,111,IRT Broadway–Seventh Avenue,181st Street,Manhattan,1,Subway,40.849505,-73.933596,yes
-302,605,112,IRT Broadway–Seventh Avenue,168th Street,Manhattan,1,Subway,40.840556,-73.940133,yes
-303,303,113,IRT Broadway–Seventh Avenue,157th Street,Manhattan,1,Subway,40.834041,-73.944890,no
-304,304,114,IRT Broadway–Seventh Avenue,145th Street,Manhattan,1,Subway,40.826551,-73.950360,no
-305,305,115,IRT Broadway–Seventh Avenue,137th Street–City College,Manhattan,1,Subway,40.822008,-73.953676,yes
-306,306,116,IRT Broadway–Seventh Avenue,125th Street,Manhattan,1,Elevated,40.815581,-73.958372,yes
-307,307,117,IRT Broadway–Seventh Avenue,116th Street–Columbia University,Manhattan,1,Subway,40.807722,-73.964110,yes
-308,308,118,IRT Broadway–Seventh Avenue,Cathedral Parkway,Manhattan,1,Subway,40.803967,-73.966847,no
-309,309,119,IRT Broadway–Seventh Avenue,103rd Street,Manhattan,1,Subway,40.799446,-73.968379,yes
-310,310,120,IRT Broadway–Seventh Avenue,96th Street,Manhattan,"1,2,3",Subway,40.793919,-73.972323,yes
-311,311,121,IRT Broadway–Seventh Avenue,86th Street,Manhattan,1,Subway,40.788644,-73.976218,yes
-312,312,122,IRT Broadway–Seventh Avenue,79th Street,Manhattan,1,Subway,40.783934,-73.979917,yes
-313,313,123,IRT Broadway–Seventh Avenue,72nd Street,Manhattan,"1,2,3",Subway,40.778453,-73.981970,yes
-314,314,124,IRT Broadway–Seventh Avenue,66th Street–Lincoln Center,Manhattan,1,Subway,40.773440,-73.982209,yes
-315,614,125,IRT Broadway–Seventh Avenue,59th Street–Columbus Circle,Manhattan,1,Subway,40.768247,-73.981929,yes
-316,316,126,IRT Broadway–Seventh Avenue,50th Street,Manhattan,1,Subway,40.761728,-73.983849,no
-317,611,127,IRT Broadway–Seventh Avenue,Times Square–42nd Street,Manhattan,"1,2,3",Subway,40.755290,-73.987495,yes
-318,318,128,IRT Broadway–Seventh Avenue,34th Street–Penn Station,Manhattan,"1,2,3",Subway,40.750373,-73.991057,yes
-319,319,129,IRT Broadway–Seventh Avenue,28th Street,Manhattan,1,Subway,40.747215,-73.993365,yes
-320,320,130,IRT Broadway–Seventh Avenue,23rd Street,Manhattan,1,Subway,40.744081,-73.995657,yes
-321,321,131,IRT Broadway–Seventh Avenue,18th Street,Manhattan,1,Subway,40.741040,-73.997871,no
-322,601,132,IRT Broadway–Seventh Avenue,14th Street,Manhattan,"1,2,3",Subway,40.737826,-74.000201,yes
-323,323,133,IRT Broadway–Seventh Avenue,Christopher Street–Sheridan Square,Manhattan,1,Subway,40.733422,-74.002906,no
-324,324,134,IRT Broadway–Seventh Avenue,Houston Street,Manhattan,1,Subway,40.728251,-74.005367,yes
-325,325,135,IRT Broadway–Seventh Avenue,Canal Street,Manhattan,1,Subway,40.722854,-74.006277,no
-326,326,136,IRT Broadway–Seventh Avenue,Franklin Street,Manhattan,1,Subway,40.719318,-74.006886,no
-327,327,137,IRT Broadway–Seventh Avenue,Chambers Street,Manhattan,"1,2,3",Subway,40.715478,-74.009266,yes
-328,328,138,IRT Broadway–Seventh Avenue,Cortlandt Street,Manhattan,1,Subway,40.711835,-74.012188,no
-329,329,139,IRT Broadway–Seventh Avenue,Rector Street,Manhattan,1,Subway,40.707513,-74.013783,no
-330,635,142,IRT Broadway–Seventh Avenue,South Ferry,Manhattan,1,Subway,40.702068,-74.013664,yes
-331,624,228,IRT Broadway–Seventh Avenue,Park Place,Manhattan,"2,3",Subway,40.713051,-74.008811,yes
-332,628,229,IRT Broadway–Seventh Avenue,Fulton Street,Manhattan,"2,3",Subway,40.709416,-74.006571,yes
-333,333,230,IRT Broadway–Seventh Avenue,Wall Street,Manhattan,"2,3",Subway,40.706821,-74.009100,no
-334,334,231,IRT Broadway–Seventh Avenue,Clark Street,Brooklyn,"2,3",Subway,40.697466,-73.993086,no
-335,620,232,IRT Broadway–Seventh Avenue,Borough Hall,Brooklyn,"2,3",Subway,40.693219,-73.989998,yes
-336,336,233,IRT Eastern Parkway,Hoyt Street,Brooklyn,"2,3",Subway,40.690545,-73.985065,yes
-337,337,234,IRT Eastern Parkway,Nevins Street,Brooklyn,"2,3,4,5",Subway,40.688246,-73.980492,yes
-338,617,235,IRT Eastern Parkway,Atlantic Avenue–Barclays Center,Brooklyn,"2,3",Subway,40.684359,-73.977666,yes
-339,339,236,IRT Eastern Parkway,Bergen Street,Brooklyn,"2,3",Subway,40.680829,-73.975098,yes
-340,340,237,IRT Eastern Parkway,Grand Army Plaza,Brooklyn,"2,3",Subway,40.675235,-73.971046,no
-341,341,238,IRT Eastern Parkway,Eastern Parkway–Brooklyn Museum,Brooklyn,"2,3",Subway,40.671987,-73.964375,yes
-342,626,239,IRT Eastern Parkway,Franklin Avenue,Brooklyn,"2,3,4,5",Subway,40.670682,-73.958131,yes
-343,343,248,IRT Eastern Parkway,Nostrand Avenue,Brooklyn,3,Subway,40.669847,-73.950466,no
-344,344,249,IRT Eastern Parkway,Kingston Avenue,Brooklyn,3,Subway,40.669399,-73.942161,yes
-345,345,250,IRT Eastern Parkway,Crown Heights–Utica Avenue,Brooklyn,"3,4",Subway,40.668897,-73.932942,yes
-346,346,251,IRT New Lots,Sutter Avenue–Rutland Road,Brooklyn,3,Elevated,40.664717,-73.922610,yes
-347,347,252,IRT New Lots,Saratoga Avenue,Brooklyn,3,Elevated,40.661453,-73.916327,no
-348,348,253,IRT New Lots,Rockaway Avenue,Brooklyn,3,Elevated,40.662549,-73.908946,no
-349,349,254,IRT New Lots,Junius Street,Brooklyn,3,Elevated,40.663515,-73.902447,no
-350,350,255,IRT New Lots,Pennsylvania Avenue,Brooklyn,3,Elevated,40.664635,-73.894895,no
-351,351,256,IRT New Lots,Van Siclen Avenue,Brooklyn,3,Elevated,40.665449,-73.889395,no
-352,352,257,IRT New Lots,New Lots Avenue,Brooklyn,3,Elevated,40.666235,-73.884079,no
-353,353,241,IRT Nostrand Avenue,President Street,Brooklyn,"2,5",Subway,40.667883,-73.950683,no
-354,354,242,IRT Nostrand Avenue,Sterling Street,Brooklyn,"2,5",Subway,40.662742,-73.950850,no
-355,355,243,IRT Nostrand Avenue,Winthrop Street,Brooklyn,"2,5",Subway,40.656652,-73.950200,no
-356,356,244,IRT Nostrand Avenue,Church Avenue,Brooklyn,"2,5",Subway,40.650843,-73.949575,no
-357,357,245,IRT Nostrand Avenue,Beverly Road,Brooklyn,"2,5",Subway,40.645098,-73.948959,no
-358,358,246,IRT Nostrand Avenue,Newkirk Avenue,Brooklyn,"2,5",Subway,40.639967,-73.948411,no
-359,359,247,IRT Nostrand Avenue,Flatbush Avenue–Brooklyn College,Brooklyn,"2,5",Subway,40.632836,-73.947642,yes
-360,360,601,IRT Pelham,Pelham Bay Park,Bronx,6,Elevated,40.852462,-73.828121,yes
-361,361,602,IRT Pelham,Buhre Avenue,Bronx,6,Elevated,40.846810,-73.832569,no
-362,362,603,IRT Pelham,Middletown Road,Bronx,6,Elevated,40.843863,-73.836322,yes
-363,363,604,IRT Pelham,Westchester Square–East Tremont Avenue,Bronx,6,Elevated,40.839892,-73.842952,yes
-364,364,606,IRT Pelham,Zerega Avenue,Bronx,6,Elevated,40.836488,-73.847036,yes
-365,365,607,IRT Pelham,Castle Hill Avenue,Bronx,6,Elevated,40.834255,-73.851222,yes
-366,366,608,IRT Pelham,Parkchester,Bronx,6,Elevated,40.833226,-73.860816,yes
-367,367,609,IRT Pelham,Saint Lawrence Avenue,Bronx,6,Elevated,40.831509,-73.867618,yes
-368,368,610,IRT Pelham,Morrison Avenue–Soundview,Bronx,6,Elevated,40.829521,-73.874516,yes
-369,369,611,IRT Pelham,Elder Avenue,Bronx,6,Elevated,40.828584,-73.879159,yes
-370,370,612,IRT Pelham,Whitlock Avenue,Bronx,6,Elevated,40.826525,-73.886283,yes
-371,371,613,IRT Pelham,Hunts Point Avenue,Bronx,6,Subway,40.820948,-73.890549,yes
-372,372,614,IRT Pelham,Longwood Avenue,Bronx,6,Subway,40.816104,-73.896435,yes
-373,373,615,IRT Pelham,East 149th Street,Bronx,6,Subway,40.812118,-73.904098,yes
-374,374,616,IRT Pelham,East 143rd Street–Saint Mary's Street,Bronx,6,Subway,40.808719,-73.907657,no
-375,375,617,IRT Pelham,Cypress Avenue,Bronx,6,Subway,40.805368,-73.914042,yes
-376,376,618,IRT Pelham,Brook Avenue,Bronx,6,Subway,40.807566,-73.919240,yes
-377,377,619,IRT Pelham,3rd Avenue–138th Street,Bronx,6,Subway,40.810476,-73.926138,yes
-378,378,401,IRT Jerome Avenue,Woodlawn,Bronx,4,Elevated,40.886037,-73.878751,yes
-379,379,402,IRT Jerome Avenue,Mosholu Parkway,Bronx,4,Elevated,40.879750,-73.884655,yes
-380,380,405,IRT Jerome Avenue,Bedford Park Boulevard–Lehman College,Bronx,4,Elevated,40.873412,-73.890064,yes
-381,381,406,IRT Jerome Avenue,Kingsbridge Road,Bronx,4,Elevated,40.867760,-73.897174,yes
-382,382,407,IRT Jerome Avenue,Fordham Road,Bronx,4,Elevated,40.862803,-73.901034,yes
-383,383,408,IRT Jerome Avenue,183rd Street,Bronx,4,Elevated,40.858407,-73.903879,yes
-384,384,409,IRT Jerome Avenue,Burnside Avenue,Bronx,4,Elevated,40.853453,-73.907684,yes
-385,385,410,IRT Jerome Avenue,176th Street,Bronx,4,Elevated,40.848480,-73.911794,yes
-386,386,411,IRT Jerome Avenue,Mount Eden Avenue,Bronx,4,Elevated,40.844434,-73.914685,no
-387,387,412,IRT Jerome Avenue,170th Street,Bronx,4,Elevated,40.840075,-73.917791,yes
-388,388,413,IRT Jerome Avenue,167th Street,Bronx,4,Elevated,40.835537,-73.921400,no
-389,604,414,IRT Jerome Avenue,161st Street–Yankee Stadium,Bronx,4,Elevated,40.827994,-73.925831,yes
-390,603,415,IRT Jerome Avenue,149th Street–Grand Concourse,Bronx,4,Subway,40.818375,-73.927351,yes
-391,391,416,IRT Jerome Avenue,138th Street–Grand Concourse,Bronx,"4,5",Subway,40.813224,-73.929849,yes
-392,392,621,IRT Lexington Avenue,125th Street,Manhattan,"4,5,6",Subway,40.804138,-73.937594,yes
-393,393,622,IRT Lexington Avenue,116th Street,Manhattan,6,Subway,40.798629,-73.941617,yes
-394,394,623,IRT Lexington Avenue,110th Street,Manhattan,6,Subway,40.795020,-73.944250,yes
-395,395,624,IRT Lexington Avenue,103rd Street,Manhattan,6,Subway,40.790600,-73.947478,yes
-396,396,625,IRT Lexington Avenue,96th Street,Manhattan,6,Subway,40.785672,-73.951070,yes
-397,397,626,IRT Lexington Avenue,86th Street,Manhattan,"4,5,6",Subway,40.779492,-73.955589,yes
-398,398,627,IRT Lexington Avenue,77th Street,Manhattan,6,Subway,40.773620,-73.959874,yes
-399,399,628,IRT Lexington Avenue,68th Street–Hunter College,Manhattan,6,Subway,40.768141,-73.963870,yes
-400,613,629,IRT Lexington Avenue,59th Street,Manhattan,"4,5,6",Subway,40.762526,-73.967967,yes
-401,612,630,IRT Lexington Avenue,51st Street,Manhattan,6,Subway,40.757107,-73.971920,yes
-402,610,631,IRT Lexington Avenue,Grand Central–42nd Street,Manhattan,"4,5,6",Subway,40.751776,-73.976848,yes
-403,403,632,IRT Lexington Avenue,33rd Street,Manhattan,6,Subway,40.746081,-73.982076,yes
-404,404,633,IRT Lexington Avenue,28th Street,Manhattan,6,Subway,40.743070,-73.984264,yes
-405,405,634,IRT Lexington Avenue,23rd Street,Manhattan,6,Subway,40.739864,-73.986599,yes
-406,602,635,IRT Lexington Avenue,14th Street–Union Square,Manhattan,"4,5,6",Subway,40.734673,-73.989951,yes
-407,407,636,IRT Lexington Avenue,Astor Place,Manhattan,6,Subway,40.730054,-73.991070,yes
-408,619,637,IRT Lexington Avenue,Bleecker Street,Manhattan,6,Subway,40.725915,-73.994659,yes
-409,409,638,IRT Lexington Avenue,Spring Street,Manhattan,6,Subway,40.722301,-73.997141,yes
-410,623,639,IRT Lexington Avenue,Canal Street,Manhattan,6,Subway,40.718803,-74.000193,yes
-411,622,640,IRT Lexington Avenue,Brooklyn Bridge–City Hall,Manhattan,"4,5,6",Subway,40.713065,-74.004131,yes
-412,628,418,IRT Lexington Avenue,Fulton Street,Manhattan,"4,5",Subway,40.710368,-74.009509,yes
-413,413,419,IRT Lexington Avenue,Wall Street,Manhattan,"4,5",Subway,40.707557,-74.011862,yes
-414,414,420,IRT Lexington Avenue,Bowling Green,Manhattan,"4,5",Subway,40.704817,-74.014065,yes
-415,620,423,IRT Eastern Parkway,Borough Hall,Brooklyn,"4,5",Subway,40.692404,-73.990151,yes
-416,416,201,IRT White Plains Road,Wakefield–241st Street,Bronx,2,Elevated,40.903125,-73.850620,yes
-417,417,204,IRT White Plains Road,Nereid Avenue,Bronx,"2,5",Elevated,40.898379,-73.854376,yes
-418,418,205,IRT White Plains Road,233rd Street,Bronx,"2,5",Elevated,40.893193,-73.857473,yes
-419,419,206,IRT White Plains Road,225th Street,Bronx,"2,5",Elevated,40.888022,-73.860341,no
-420,420,207,IRT White Plains Road,219th Street,Bronx,"2,5",Elevated,40.883895,-73.862633,no
-421,421,208,IRT White Plains Road,Gun Hill Road,Bronx,"2,5",Elevated,40.877850,-73.866256,yes
-422,422,209,IRT White Plains Road,Burke Avenue,Bronx,"2,5",Elevated,40.871356,-73.867164,no
-423,423,210,IRT White Plains Road,Allerton Avenue,Bronx,"2,5",Elevated,40.865462,-73.867352,yes
-424,424,211,IRT White Plains Road,Pelham Parkway,Bronx,"2,5",Elevated,40.857192,-73.867615,yes
-425,425,212,IRT White Plains Road,Bronx Park East,Bronx,"2,5",Elevated,40.848828,-73.868457,no
-426,426,213,IRT White Plains Road,East 180th Street,Bronx,"2,5",Elevated,40.841894,-73.873488,yes
-427,427,214,IRT White Plains Road,West Farms Square–East Tremont Avenue,Bronx,"2,5",Elevated,40.840295,-73.880049,yes
-428,428,215,IRT White Plains Road,174th Street,Bronx,"2,5",Elevated,40.837288,-73.887734,yes
-429,429,216,IRT White Plains Road,Freeman Street,Bronx,"2,5",Elevated,40.829993,-73.891865,yes
-430,430,217,IRT White Plains Road,Simpson Street,Bronx,"2,5",Elevated,40.824073,-73.893064,yes
-431,431,218,IRT White Plains Road,Intervale Avenue,Bronx,"2,5",Elevated,40.822181,-73.896736,yes
-432,432,219,IRT White Plains Road,Prospect Avenue,Bronx,"2,5",Elevated,40.819585,-73.901770,yes
-433,433,220,IRT White Plains Road,Jackson Avenue,Bronx,"2,5",Elevated,40.816490,-73.907807,yes
-434,434,221,IRT White Plains Road,3rd Avenue–149th Street,Bronx,"2,5",Subway,40.816109,-73.917757,yes
-435,603,222,IRT White Plains Road,149th Street–Grand Concourse,Bronx,"2,5",Subway,40.818410,-73.926718,yes
-436,436,301,IRT Lenox Avenue,Harlem–148th Street,Manhattan,3,Subway,40.823880,-73.936470,no
-437,437,302,IRT Lenox Avenue,145th Street,Manhattan,3,Subway,40.820421,-73.936245,no
-438,438,224,IRT Lenox Avenue,135th Street,Manhattan,"2,3",Subway,40.814229,-73.940770,yes
-439,439,225,IRT Lenox Avenue,125th Street,Manhattan,"2,3",Subway,40.807754,-73.945495,yes
-440,440,226,IRT Lenox Avenue,116th Street,Manhattan,"2,3",Subway,40.802098,-73.949625,yes
-441,441,227,IRT Lenox Avenue,Central Park North–110th Street,Manhattan,"2,3",Subway,40.799075,-73.951822,yes
-442,442,501,IRT Dyre Avenue,Eastchester–Dyre Avenue,Bronx,5,At Grade,40.888300,-73.830834,yes
-443,443,502,IRT Dyre Avenue,Baychester Avenue,Bronx,5,Open Cut,40.878663,-73.838591,yes
-444,444,503,IRT Dyre Avenue,Gun Hill Road,Bronx,5,Open Cut,40.869526,-73.846384,no
-445,445,504,IRT Dyre Avenue,Pelham Parkway,Bronx,5,Open Cut,40.858985,-73.855359,yes
-446,446,505,IRT Dyre Avenue,Morris Park,Bronx,5,Open Cut,40.854364,-73.860495,yes
-447,447,701,IRT Flushing,Flushing–Main Street,Queens,7,Subway,40.759600,-73.830030,yes
-448,448,702,IRT Flushing,Mets–Willets Point,Queens,7,Elevated,40.754622,-73.845625,yes
-449,449,705,IRT Flushing,111th Street,Queens,7,Elevated,40.751730,-73.855334,yes
-450,450,706,IRT Flushing,103rd Street–Corona Plaza,Queens,7,Elevated,40.749865,-73.862700,no
-451,451,707,IRT Flushing,Junction Boulevard,Queens,7,Elevated,40.749145,-73.869527,yes
-452,452,708,IRT Flushing,90th Street–Elmhurst Avenue,Queens,7,Elevated,40.748408,-73.876613,yes
-453,453,709,IRT Flushing,82nd Street–Jackson Heights,Queens,7,Elevated,40.747659,-73.883697,yes
-454,616,710,IRT Flushing,74th Street–Broadway,Queens,7,Elevated,40.746848,-73.891394,yes
-455,455,711,IRT Flushing,69th Street,Queens,7,Elevated,40.746325,-73.896403,yes
-456,456,712,IRT Flushing,Woodside–61st Street,Queens,7,Elevated,40.745630,-73.902984,yes
-457,457,713,IRT Flushing,52nd Street,Queens,7,Elevated,40.744149,-73.912549,yes
-458,458,714,IRT Flushing,46th Street–Bliss Street,Queens,7,Elevated,40.743132,-73.918435,no
-459,459,715,IRT Flushing,40th Street–Lowery Street,Queens,7,Elevated,40.743781,-73.924016,no
-460,460,716,IRT Flushing,33rd Street–Rawson Street,Queens,7,Elevated,40.744587,-73.930997,no
-461,461,718,"IRT Flushing, BMT Astoria",Queensboro Plaza,Queens,"7,N,W",Elevated,40.750582,-73.940202,yes
-462,606,719,IRT Flushing,Court Square,Queens,7,Elevated,40.747023,-73.945264,yes
-463,463,720,IRT Flushing,Hunters Point Avenue,Queens,7,Subway,40.742216,-73.948916,yes
-464,464,721,IRT Flushing,Vernon Boulevard–Jackson Avenue,Queens,7,Subway,40.742626,-73.953581,yes
-465,610,723,IRT Flushing,Grand Central–42nd Street,Manhattan,7,Subway,40.751431,-73.976041,yes
-466,609,724,IRT Flushing,5th Avenue–Bryant Park,Manhattan,7,Subway,40.753821,-73.981963,yes
-467,611,725,IRT Flushing,Times Square–42nd Street,Manhattan,7,Subway,40.755477,-73.987691,yes
-471,471,726,IRT Flushing,34th Street–Hudson Yards,Manhattan,7,Subway,40.755882,-74.001910,yes
-468,611,902,IRT 42nd Street,Times Square–42nd Street,Manhattan,S,Subway,40.755983,-73.986229,yes
-469,610,901,IRT 42nd Street,Grand Central–42nd Street,Manhattan,S,Subway,40.752769,-73.979189,yes
-475,475,Q05,IND Second Avenue,96th Street,Manhattan,Q,Subway,40.784318,-73.947152,yes
-476,476,Q04,IND Second Avenue,86th Street,Manhattan,Q,Subway,40.777891,-73.951787,yes
-477,477,Q03,IND Second Avenue,72nd Street,Manhattan,Q,Subway,40.768799,-73.958424,no
+station_ID,complex_ID,gtfs_ID,line,stop_name,borough,routes,structure,gtfs_lat,gtfs_lon,visited,285
+LINE,5,6,Astoria,,,,,,,,
+1,1,R01,BMT Astoria,Astoria–Ditmars Boulevard,Queens,"N,W",Elevated,40.775036,-73.912034,yes,
+2,2,R03,BMT Astoria,Astoria Boulevard,Queens,"N,W",Elevated,40.770258,-73.917843,yes,
+3,3,R04,BMT Astoria,30th Avenue,Queens,"N,W",Elevated,40.766779,-73.921479,yes,
+4,4,R05,BMT Astoria,Broadway,Queens,"N,W",Elevated,40.761820,-73.925508,yes,
+5,5,R06,BMT Astoria,36th Avenue,Queens,"N,W",Elevated,40.756804,-73.929575,yes,
+6,6,R08,BMT Astoria,39th Avenue,Queens,"N,W",Elevated,40.752882,-73.932755,no,
+LINE,14,17,Broadway,,,,,,,,
+7,613,R11,BMT Broadway,Lexington Avenue–59th Street,Manhattan,"N,W,R",Subway,40.762660,-73.967258,yes,
+8,8,R13,BMT Broadway,5th Avenue–59th Street,Manhattan,"N,W,R",Subway,40.764811,-73.973347,yes,
+9,9,R14,BMT Broadway,57th Street–7th Avenue,Manhattan,"N,Q,R,W",Subway,40.764664,-73.980658,yes,
+10,10,R15,BMT Broadway,49th Street,Manhattan,"N,R,W",Subway,40.759901,-73.984139,yes,
+11,611,R16,BMT Broadway,Times Square–42nd Street,Manhattan,"N,Q,R,W",Subway,40.754672,-73.986754,yes,
+12,607,R17,BMT Broadway,34th Street–Herald Square,Manhattan,"N,Q,R,W",Subway,40.749567,-73.987950,yes,
+13,13,R18,BMT Broadway,28th Street,Manhattan,"R,W",Subway,40.745494,-73.988691,no,
+14,14,R19,BMT Broadway,23rd Street,Manhattan,"R,W",Subway,40.741303,-73.989344,yes,
+15,602,R20,BMT Broadway,14th Street–Union Square,Manhattan,"N,Q,R,W",Subway,40.735736,-73.990568,yes,
+16,16,R21,BMT Broadway,8th Street–New York University,Manhattan,"R,W",Subway,40.730328,-73.992629,yes,
+17,17,R22,BMT Broadway,Prince Street,Manhattan,"R,W",Subway,40.724329,-73.997702,yes,
+18,623,R23,BMT Broadway,Canal Street,Manhattan,"R,W",Subway,40.719527,-74.001775,yes,
+19,623,Q01,BMT Broadway,Canal Street,Manhattan,"N,Q",Subway,40.718383,-74.000460,yes,
+20,20,R24,BMT Broadway,City Hall,Manhattan,"R,W",Subway,40.713282,-74.006978,no,
+21,21,R25,BMT Broadway,Cortlandt Street,Manhattan,"R,W",Subway,40.710668,-74.011029,no,
+22,22,R26,BMT Broadway,Rector Street,Manhattan,"R,W",Subway,40.707220,-74.013342,yes,
+23,635,R27,BMT Broadway,Whitehall Street,Manhattan,"R,W",Subway,40.703087,-74.012994,yes,
+LINE,11,16,Fourth Avenue,,,,,,,,
+24,620,R28,BMT Fourth Avenue,Court Street,Brooklyn,R,Subway,40.694100,-73.991777,no,
+25,636,R29,BMT Fourth Avenue,Jay Street–MetroTech,Brooklyn,R,Subway,40.692180,-73.985942,yes,
+26,26,R30,BMT Fourth Avenue,DeKalb Avenue,Brooklyn,"B,Q,R",Subway,40.690635,-73.981824,yes,
+27,617,R31,BMT Fourth Avenue,Atlantic Avenue–Barclays Center,Brooklyn,"D,N,R",Subway,40.683666,-73.978810,yes,
+28,28,R32,BMT Fourth Avenue,Union Street,Brooklyn,R,Subway,40.677316,-73.983110,yes,
+29,608,R33,BMT Fourth Avenue,9th Street,Brooklyn,R,Subway,40.670847,-73.988302,yes,
+30,30,R34,BMT Fourth Avenue,Prospect Avenue,Brooklyn,R,Subway,40.665414,-73.992872,yes,
+31,31,R35,BMT Fourth Avenue,25th Street,Brooklyn,R,Subway,40.660397,-73.998091,no,
+32,32,R36,BMT Fourth Avenue,36th Street,Brooklyn,"D,N,R",Subway,40.655144,-74.003549,yes,
+33,33,R39,BMT Fourth Avenue,45th Street,Brooklyn,R,Subway,40.648939,-74.010006,no,
+34,34,R40,BMT Fourth Avenue,53rd Street,Brooklyn,R,Subway,40.645069,-74.014034,no,
+35,35,R41,BMT Fourth Avenue,59th Street,Brooklyn,"N,R",Subway,40.641362,-74.017881,yes,
+36,36,R42,BMT Fourth Avenue,Bay Ridge Avenue,Brooklyn,R,Subway,40.634967,-74.023377,yes,
+37,37,R43,BMT Fourth Avenue,77th Street,Brooklyn,R,Subway,40.629742,-74.025510,no,
+38,38,R44,BMT Fourth Avenue,86th Street,Brooklyn,R,Subway,40.622687,-74.028398,yes,
+39,39,R45,BMT Fourth Avenue,Bay Ridge–95th Street,Brooklyn,R,Subway,40.616622,-74.030876,yes,
+LINE,5,18,Brighton,,,,,,,,
+40,617,D24,BMT Brighton,Atlantic Avenue–Barclays Center,Brooklyn,"B,Q",Subway,40.684460,-73.976890,yes,
+41,41,D25,BMT Brighton,7th Avenue,Brooklyn,"B,Q",Subway,40.677050,-73.972367,no,
+42,42,D26,BMT Brighton,Prospect Park,Brooklyn,"B,Q",Open Cut,40.661614,-73.962246,yes,
+43,43,D27,BMT Brighton,Parkside Avenue,Brooklyn,"B,Q",Open Cut,40.655292,-73.961495,no,
+44,44,D28,BMT Brighton,Church Avenue,Brooklyn,"B,Q",Open Cut,40.650527,-73.962982,no,
+45,45,D29,BMT Brighton,Beverley Road,Brooklyn,"B,Q",Open Cut,40.644031,-73.964492,no,
+46,46,D30,BMT Brighton,Cortelyou Road,Brooklyn,"B,Q",Open Cut,40.640927,-73.963891,no,
+47,47,D31,BMT Brighton,Newkirk Plaza,Brooklyn,"B,Q",Open Cut,40.635082,-73.962793,no,
+48,48,D32,BMT Brighton,Avenue H,Brooklyn,"B,Q",Open Cut,40.629270,-73.961639,no,
+49,49,D33,BMT Brighton,Avenue J,Brooklyn,"B,Q",Open Cut,40.625039,-73.960803,no,
+50,50,D34,BMT Brighton,Avenue M,Brooklyn,"B,Q",Open Cut,40.617618,-73.959399,no,
+51,51,D35,BMT Brighton,Kings Highway,Brooklyn,"B,Q",Open Cut,40.608670,-73.957734,yes,
+52,52,D37,BMT Brighton,Avenue U,Brooklyn,"B,Q",Open Cut,40.599300,-73.955929,yes,
+53,53,D38,BMT Brighton,Neck Road,Brooklyn,"B,Q",Open Cut,40.595246,-73.955161,no,
+54,54,D39,BMT Brighton,Sheepshead Bay,Brooklyn,"B,Q",Open Cut,40.586896,-73.954155,no,
+55,55,D40,BMT Brighton,Brighton Beach,Brooklyn,"B,Q",Elevated,40.577621,-73.961376,yes,
+56,56,D41,BMT Brighton,Ocean Parkway,Brooklyn,Q,Elevated,40.576312,-73.968501,no,
+57,57,D42,BMT Brighton,West 8th Street–New York Aquarium,Brooklyn,"F,Q",Elevated,40.576127,-73.975939,no,
+LINES,,,"Sea Beach, West End, Culver, and Brighton",,,,,,,,
+58,58,D43,"BMT Sea Beach, BMT West End, IND Culver, BMT Brighton",Coney Island–Stillwell Avenue,Brooklyn,"D,F,N,Q",Viaduct,40.577422,-73.981233,yes,
+LINE,,,West End,,,,,,,,
+59,59,B12,BMT West End,9th Avenue,Brooklyn,D,Open Cut,40.646292,-73.994324,no,
+60,60,B13,BMT West End,Fort Hamilton Parkway,Brooklyn,D,Elevated,40.640914,-73.994304,no,
+61,61,B14,BMT West End,50th Street,Brooklyn,D,Elevated,40.636260,-73.994791,no,
+62,62,B15,BMT West End,55th Street,Brooklyn,D,Elevated,40.631435,-73.995476,no,
+63,615,B16,BMT West End,62nd Street,Brooklyn,D,Elevated,40.626472,-73.996895,yes,
+64,64,B17,BMT West End,71st Street,Brooklyn,D,Elevated,40.619589,-73.998864,no,
+65,65,B18,BMT West End,79th Street,Brooklyn,D,Elevated,40.613501,-74.000610,no,
+66,66,B19,BMT West End,18th Avenue,Brooklyn,D,Elevated,40.607954,-74.001736,no,
+67,67,B20,BMT West End,20th Avenue,Brooklyn,D,Elevated,40.604556,-73.998168,yes,
+68,68,B21,BMT West End,Bay Parkway,Brooklyn,D,Elevated,40.601875,-73.993728,yes,
+69,69,B22,BMT West End,25th Avenue,Brooklyn,D,Elevated,40.597704,-73.986829,no,
+70,70,B23,BMT West End,Bay 50th Street,Brooklyn,D,Elevated,40.588841,-73.983765,no,
+LINE,,,Sea Beach,,,,,,,,
+71,71,N02,BMT Sea Beach,8th Avenue,Brooklyn,N,Open Cut,40.635064,-74.011719,yes,
+72,72,N03,BMT Sea Beach,Fort Hamilton Parkway,Brooklyn,N,Open Cut,40.631386,-74.005351,yes,
+73,615,N04,BMT Sea Beach,New Utrecht Avenue,Brooklyn,N,Open Cut,40.624842,-73.996353,yes,
+74,74,N05,BMT Sea Beach,18th Avenue,Brooklyn,N,Open Cut,40.620671,-73.990414,no,
+75,75,N06,BMT Sea Beach,20th Avenue,Brooklyn,N,Open Cut,40.617410,-73.985026,no,
+76,76,N07,BMT Sea Beach,Bay Parkway,Brooklyn,N,Open Cut,40.611815,-73.981848,no,
+77,77,N08,BMT Sea Beach,Kings Highway,Brooklyn,N,Open Cut,40.603923,-73.980353,no,
+78,78,N09,BMT Sea Beach,Avenue U,Brooklyn,N,Open Cut,40.597473,-73.979137,no,
+79,79,N10,BMT Sea Beach,86th Street,Brooklyn,N,Open Cut,40.592721,-73.978230,no,
+LINE,,,Jamaica,,,,,,,,
+80,80,J12,BMT Jamaica,121st Street,Queens,"J,Z",Elevated,40.700492,-73.828294,no,
+81,81,J13,BMT Jamaica,111th Street,Queens,J,Elevated,40.697418,-73.836345,no,
+82,82,J14,BMT Jamaica,104th Street,Queens,"J,Z",Elevated,40.695178,-73.844330,no,
+83,83,J15,BMT Jamaica,Woodhaven Boulevard,Queens,"J,Z",Elevated,40.693879,-73.851576,yes,
+84,84,J16,BMT Jamaica,85th Street–Forest Parkway,Queens,J,Elevated,40.692435,-73.860010,no,
+85,85,J17,BMT Jamaica,75th Street–Elderts Lane,Queens,"J,Z",Elevated,40.691324,-73.867139,no,
+86,86,J19,BMT Jamaica,Cypress Hills,Brooklyn,J,Elevated,40.689941,-73.872550,no,
+87,87,J20,BMT Jamaica,Crescent Street,Brooklyn,"J,Z",Elevated,40.683194,-73.873785,no,
+88,88,J21,BMT Jamaica,Norwood Avenue,Brooklyn,"J,Z",Elevated,40.681410,-73.880039,no,
+89,89,J22,BMT Jamaica,Cleveland Street,Brooklyn,J,Elevated,40.679947,-73.884639,no,
+90,90,J23,BMT Jamaica,Van Siclen Avenue,Brooklyn,"J,Z",Elevated,40.678024,-73.891688,no,
+91,91,J24,BMT Jamaica,Alabama Avenue,Brooklyn,J,Elevated,40.676992,-73.898654,no,
+92,621,J27,BMT Jamaica,Broadway Junction,Brooklyn,"J,Z",Elevated,40.679498,-73.904512,yes,
+93,93,J28,BMT Jamaica,Chauncey Street,Brooklyn,"J,Z",Elevated,40.682893,-73.910456,no,
+94,94,J29,BMT Jamaica,Halsey Street,Brooklyn,J,Elevated,40.686370,-73.916559,no,
+95,95,J30,BMT Jamaica,Gates Avenue,Brooklyn,"J,Z",Elevated,40.689630,-73.922270,no,
+96,96,J31,BMT Jamaica,Kosciuszko Street,Brooklyn,J,Elevated,40.693342,-73.928814,no,
+97,97,M11,BMT Jamaica,Myrtle Avenue,Brooklyn,"J,M,Z",Elevated,40.697207,-73.935657,yes,
+98,98,M12,BMT Jamaica,Flushing Avenue,Brooklyn,"J,M",Elevated,40.700260,-73.941126,no,
+99,99,M13,BMT Jamaica,Lorimer Street,Brooklyn,"J,M",Elevated,40.703869,-73.947408,no,
+100,100,M14,BMT Jamaica,Hewes Street,Brooklyn,"J,M",Elevated,40.706870,-73.953431,no,
+101,101,M16,BMT Jamaica,Marcy Avenue,Brooklyn,"J,M,Z",Elevated,40.708359,-73.957757,yes,
+LINE,,,Nassau Street,,,,,,,,
+102,625,M18,BMT Nassau Street,Essex Street,Manhattan,"J,M,Z",Subway,40.718315,-73.987437,yes,
+103,103,M19,BMT Nassau Street,Bowery,Manhattan,"J,Z",Subway,40.720280,-73.993915,yes,
+104,623,M20,BMT Nassau Street,Canal Street,Manhattan,"J,Z",Subway,40.718092,-73.999892,yes,
+105,622,M21,BMT Nassau Street,Chambers Street,Manhattan,"J,Z",Subway,40.713243,-74.003401,yes,
+106,628,M22,BMT Nassau Street,Fulton Street,Manhattan,"J,Z",Subway,40.710374,-74.007582,yes,
+107,107,M23,BMT Nassau Street,Broad Street,Manhattan,"J,Z",Subway,40.706476,-74.011056,no,
+LINE,,,Myrtle Avenue,,,,,,,,
+108,108,M01,BMT Myrtle Avenue,Middle Village–Metropolitan Avenue,Queens,M,Elevated,40.711396,-73.889601,no,
+109,109,M04,BMT Myrtle Avenue,Fresh Pond Road,Queens,M,Elevated,40.706186,-73.895877,no,
+110,110,M05,BMT Myrtle Avenue,Forest Avenue,Queens,M,Elevated,40.704423,-73.903077,yes,
+111,111,M06,BMT Myrtle Avenue,Seneca Avenue,Queens,M,Elevated,40.702762,-73.907740,yes,
+112,630,M08,BMT Myrtle Avenue,Myrtle–Wyckoff Avenues,Brooklyn,M,Elevated,40.699430,-73.912385,yes,
+113,113,M09,BMT Myrtle Avenue,Knickerbocker Avenue,Brooklyn,M,Elevated,40.698664,-73.919711,no,
+114,114,M10,BMT Myrtle Avenue,Central Avenue,Brooklyn,M,Elevated,40.697857,-73.927397,no,
+LINE,,,Canarsie,,,,,,,,
+115,618,L01,BMT Canarsie,8th Avenue,Manhattan,L,Subway,40.739777,-74.002578,yes,
+116,601,L02,BMT Canarsie,6th Avenue,Manhattan,L,Subway,40.737335,-73.996786,yes,
+117,602,L03,BMT Canarsie,Union Square,Manhattan,L,Subway,40.734789,-73.990730,yes,
+118,118,L05,BMT Canarsie,3rd Avenue,Manhattan,L,Subway,40.732849,-73.986122,no,
+119,119,L06,BMT Canarsie,1st Avenue,Manhattan,L,Subway,40.730953,-73.981628,yes,
+120,120,L08,BMT Canarsie,Bedford Avenue,Brooklyn,L,Subway,40.717304,-73.956872,yes,
+121,629,L10,BMT Canarsie,Lorimer Street,Brooklyn,L,Subway,40.714063,-73.950275,yes,
+122,122,L11,BMT Canarsie,Graham Avenue,Brooklyn,L,Subway,40.714565,-73.944053,no,
+123,123,L12,BMT Canarsie,Grand Street,Brooklyn,L,Subway,40.711926,-73.940670,no,
+124,124,L13,BMT Canarsie,Montrose Avenue,Brooklyn,L,Subway,40.707739,-73.939850,no,
+125,125,L14,BMT Canarsie,Morgan Avenue,Brooklyn,L,Subway,40.706152,-73.933147,no,
+126,126,L15,BMT Canarsie,Jefferson Street,Brooklyn,L,Subway,40.706607,-73.922913,no,
+127,127,L16,BMT Canarsie,DeKalb Avenue,Brooklyn,L,Subway,40.703811,-73.918425,no,
+128,630,L17,BMT Canarsie,Myrtle–Wyckoff Avenues,Brooklyn,L,Subway,40.699814,-73.911586,yes,
+129,129,L19,BMT Canarsie,Halsey Street,Queens,L,Subway,40.695602,-73.904084,no,
+130,130,L20,BMT Canarsie,Wilson Avenue,Brooklyn,L,Subway,40.688764,-73.904046,no,
+131,131,L21,BMT Canarsie,Bushwick Avenue–Aberdeen Street,Brooklyn,L,Subway,40.682829,-73.905249,no,
+132,621,L22,BMT Canarsie,Broadway Junction,Brooklyn,L,Elevated,40.678856,-73.903240,yes,
+133,133,L24,BMT Canarsie,Atlantic Avenue,Brooklyn,L,Elevated,40.675345,-73.903097,no,
+134,134,L25,BMT Canarsie,Sutter Avenue,Brooklyn,L,Elevated,40.669367,-73.901975,no,
+135,135,L26,BMT Canarsie,Livonia Avenue,Brooklyn,L,Elevated,40.664038,-73.900571,no,
+136,136,L27,BMT Canarsie,New Lots Avenue,Brooklyn,L,Elevated,40.658733,-73.899232,no,
+137,137,L28,BMT Canarsie,East 105th Street,Brooklyn,L,At Grade,40.650573,-73.899485,no,
+138,138,L29,BMT Canarsie,Canarsie–Rockaway Parkway,Brooklyn,L,At Grade,40.646654,-73.901850,yes,
+LINE,,,Franklin Avenue,,,,,,,,
+139,627,S01,BMT Franklin Avenue,Franklin Avenue,Brooklyn,S,Elevated,40.680596,-73.955827,yes,
+141,141,S03,BMT Franklin Avenue,Park Place,Brooklyn,S,Open Cut,40.674772,-73.957624,no,
+142,626,S04,BMT Franklin Avenue,Botanic Garden,Brooklyn,S,Open Cut,40.670343,-73.959245,yes,
+LINE,,,Eighth Avenue,,,,,,,,
+143,143,A02,IND Eighth Avenue,Inwood–207th Street,Manhattan,A,Subway,40.868072,-73.919899,yes,
+144,144,A03,IND Eighth Avenue,Dyckman Street,Manhattan,A,Subway,40.865491,-73.927271,yes,
+145,145,A05,IND Eighth Avenue,190th Street,Manhattan,A,Subway,40.859022,-73.934180,yes,
+146,146,A06,IND Eighth Avenue,181st Street,Manhattan,A,Subway,40.851695,-73.937969,yes,
+147,147,A07,IND Eighth Avenue,175th Street,Manhattan,A,Subway,40.847391,-73.939704,yes,
+148,605,A09,IND Eighth Avenue,168th Street,Manhattan,"A,C",Subway,40.840719,-73.939561,yes,
+149,149,A10,IND Eighth Avenue,163rd Street–Amsterdam Avenue,Manhattan,C,Subway,40.836013,-73.939892,no,
+150,150,A11,IND Eighth Avenue,155th Street,Manhattan,C,Subway,40.830518,-73.941514,no,
+151,151,A12,IND Eighth Avenue,145th Street,Manhattan,"A,B,C,D",Subway,40.824783,-73.944216,yes,
+152,152,A14,IND Eighth Avenue,135th Street,Manhattan,"B,C",Subway,40.817894,-73.947649,yes,
+153,153,A15,IND Eighth Avenue,125th Street,Manhattan,"A,B,C,D",Subway,40.811109,-73.952343,yes,
+154,154,A16,IND Eighth Avenue,116th Street,Manhattan,"B,C",Subway,40.805085,-73.954882,no,
+155,155,A17,IND Eighth Avenue,Cathedral Parkway–110th Street,Manhattan,"B,C",Subway,40.800603,-73.958161,yes,
+156,156,A18,IND Eighth Avenue,103rd Street,Manhattan,"B,C",Subway,40.796092,-73.961454,no,
+157,157,A19,IND Eighth Avenue,96th Street,Manhattan,"B,C",Subway,40.791642,-73.964696,yes,
+158,158,A20,IND Eighth Avenue,86th Street,Manhattan,"B,C",Subway,40.785868,-73.968916,no,
+159,159,A21,IND Eighth Avenue,81st Street–Museum of Natural History,Manhattan,"B,C",Subway,40.781433,-73.972143,yes,
+160,160,A22,IND Eighth Avenue,72nd Street,Manhattan,"B,C",Subway,40.775594,-73.976410,yes,
+161,614,A24,IND Eighth Avenue,59th Street–Columbus Circle,Manhattan,"A,B,C,D",Subway,40.768296,-73.981736,yes,
+162,162,A25,"IND Eighth Avenue, IND Queens Boulevard",50th Street,Manhattan,"C,E",Subway,40.762456,-73.985984,yes,
+163,611,A27,IND Eighth Avenue,42nd Street–Port Authority Bus Terminal,Manhattan,"A,C,E",Subway,40.757308,-73.989735,yes,
+164,164,A28,IND Eighth Avenue,34th Street–Penn Station,Manhattan,"A,C,E",Subway,40.752287,-73.993391,yes,
+165,165,A30,IND Eighth Avenue,23rd Street,Manhattan,"C,E",Subway,40.745906,-73.998041,no,
+166,618,A31,IND Eighth Avenue,14th Street,Manhattan,"A,C,E",Subway,40.740893,-74.001690,yes,
+167,167,A32,"IND Eighth Avenue, IND Sixth Avenue",West 4th Street–Washington Square,Manhattan,"A,B,C,D,E,F,M",Subway,40.732338,-74.000495,yes,
+168,168,A33,IND Eighth Avenue,Spring Street,Manhattan,"C,E",Subway,40.726227,-74.003739,no,
+169,169,A34,IND Eighth Avenue,Canal Street,Manhattan,"A,C,E",Subway,40.720824,-74.005229,yes,
+170,624,A36,IND Eighth Avenue,Chambers Street,Manhattan,"A,C",Subway,40.714111,-74.008585,yes,
+171,624,E01,IND Eighth Avenue,World Trade Center,Manhattan,E,Subway,40.712582,-74.009781,yes,
+172,628,A38,IND Eighth Avenue,Fulton Street,Manhattan,"A,C",Subway,40.710197,-74.007691,yes,
+173,173,A40,IND Eighth Avenue,High Street,Brooklyn,"A,C",Subway,40.699337,-73.990531,yes,
+LINES,,,Fulton Street and Culver,,,,,,,,
+174,636,A41,"IND Fulton Street, IND Culver",Jay Street–MetroTech,Brooklyn,"A,C,F",Subway,40.692338,-73.987342,yes,
+LINES,,,Fulton Street and Crosstown,,,,,,,,
+175,175,A42,"IND Fulton Street, IND Crosstown",Hoyt–Schermerhorn Streets,Brooklyn,"A,C,G",Subway,40.688484,-73.985001,yes,
+LINE,,,Fulton Street,,,,,,,,
+176,176,A43,IND Fulton Street,Lafayette Avenue,Brooklyn,C,Subway,40.686113,-73.973946,no,
+177,177,A44,IND Fulton Street,Clinton–Washington Avenues,Brooklyn,C,Subway,40.683263,-73.965838,no,
+178,627,A45,IND Fulton Street,Franklin Avenue,Brooklyn,C,Subway,40.681380,-73.956848,yes,
+179,179,A46,IND Fulton Street,Nostrand Avenue,Brooklyn,"A,C",Subway,40.680438,-73.950426,yes,
+180,180,A47,IND Fulton Street,Kingston–Throop Avenues,Brooklyn,C,Subway,40.679921,-73.940858,no,
+181,181,A48,IND Fulton Street,Utica Avenue,Brooklyn,"A,C",Subway,40.679364,-73.930729,yes,
+182,182,A49,IND Fulton Street,Ralph Avenue,Brooklyn,C,Subway,40.678822,-73.920786,yes,
+183,183,A50,IND Fulton Street,Rockaway Avenue,Brooklyn,C,Subway,40.678340,-73.911946,no,
+184,621,A51,IND Fulton Street,Broadway Junction,Brooklyn,"A,C",Subway,40.678334,-73.905316,yes,
+185,185,A52,IND Fulton Street,Liberty Avenue,Brooklyn,C,Subway,40.674542,-73.896548,no,
+186,186,A53,IND Fulton Street,Van Siclen Avenue,Brooklyn,C,Subway,40.672710,-73.890358,no,
+187,187,A54,IND Fulton Street,Shepherd Avenue,Brooklyn,C,Subway,40.674130,-73.880750,no,
+188,188,A55,IND Fulton Street,Euclid Avenue,Brooklyn,"A,C",Subway,40.675377,-73.872106,yes,
+189,189,A57,IND Fulton Street,Grant Avenue,Brooklyn,A,Subway,40.677044,-73.865050,no,
+190,190,A59,IND Fulton Street,80th Street,Queens,A,Elevated,40.679371,-73.858992,no,
+191,191,A60,IND Fulton Street,88th Street,Queens,A,Elevated,40.679843,-73.851470,no,
+192,192,A61,IND Fulton Street,Rockaway Boulevard,Queens,A,Elevated,40.680429,-73.843853,yes,
+193,193,A63,IND Fulton Street,104th Street,Queens,A,Elevated,40.681711,-73.837683,no,
+194,194,A64,IND Fulton Street,111th Street,Queens,A,Elevated,40.684331,-73.832163,no,
+195,195,A65,IND Fulton Street,Ozone Park–Lefferts Boulevard,Queens,A,Elevated,40.685951,-73.825798,no,
+LINE,,,Rockaway,,,,,,,,
+196,196,H01,IND Rockaway,Aqueduct Racetrack,Queens,A,At Grade,40.672097,-73.835919,no,
+197,197,H02,IND Rockaway,Aqueduct–North Conduit Avenue,Queens,A,At Grade,40.668234,-73.834058,no,
+198,198,H03,IND Rockaway,Howard Beach–JFK Airport,Queens,A,At Grade,40.660476,-73.830301,no,
+199,199,H04,IND Rockaway,Broad Channel,Queens,"A,S",At Grade,40.608382,-73.815925,yes,
+200,200,H12,IND Rockaway,Beach 90th Street,Queens,"A,S",Viaduct,40.588034,-73.813641,yes,
+201,201,H13,IND Rockaway,Beach 98th Street,Queens,"A,S",Viaduct,40.585307,-73.820558,no,
+202,202,H14,IND Rockaway,Beach 105th Street,Queens,"A,S",Viaduct,40.583209,-73.827559,no,
+203,203,H15,IND Rockaway,Rockaway Park–Beach 116th Street,Queens,"A,S",At Grade,40.580903,-73.835592,no,
+204,204,H06,IND Rockaway,Beach 67th Street,Queens,A,Viaduct,40.590927,-73.796924,no,
+205,205,H07,IND Rockaway,Beach 60th Street,Queens,A,Viaduct,40.592374,-73.788522,no,
+206,206,H08,IND Rockaway,Beach 44th Street,Queens,A,Viaduct,40.592943,-73.776013,no,
+207,207,H09,IND Rockaway,Beach 36th Street,Queens,A,Viaduct,40.595398,-73.768175,no,
+208,208,H10,IND Rockaway,Beach 25th Street,Queens,A,Viaduct,40.600066,-73.761353,no,
+209,209,H11,IND Rockaway,Far Rockaway–Mott Avenue,Queens,A,Viaduct,40.603995,-73.755405,no,
+LINE,,,Concourse,,,,,,,,
+210,210,D01,IND Concourse,Norwood–205th Street,Bronx,D,Subway,40.874811,-73.878855,yes,
+211,211,D03,IND Concourse,Bedford Park Boulevard,Bronx,"B,D",Subway,40.873244,-73.887138,yes,
+212,212,D04,IND Concourse,Kingsbridge Road,Bronx,"B,D",Subway,40.866978,-73.893509,yes,
+213,213,D05,IND Concourse,Fordham Road,Bronx,"B,D",Subway,40.861296,-73.897749,yes,
+214,214,D06,IND Concourse,182nd–183rd Streets,Bronx,"B,D",Subway,40.856093,-73.900741,no,
+215,215,D07,IND Concourse,Tremont Avenue,Bronx,"B,D",Subway,40.850410,-73.905227,no,
+216,216,D08,IND Concourse,174th–175th Streets,Bronx,"B,D",Subway,40.845900,-73.910136,yes,
+217,217,D09,IND Concourse,170th Street,Bronx,"B,D",Subway,40.839306,-73.913400,no,
+218,218,D10,IND Concourse,167th Street,Bronx,"B,D",Subway,40.833771,-73.918440,no,
+219,604,D11,IND Concourse,161st Street–Yankee Stadium,Bronx,"B,D",Subway,40.827905,-73.925651,yes,
+220,220,D12,IND Concourse,155th Street,Manhattan,"B,D",Subway,40.830135,-73.938209,no,
+LINES,,,63rd Street,,,,,,,,
+221,221,B04,IND 63rd Street,21st Street–Queensbridge,Queens,F,Subway,40.754203,-73.942836,yes,
+222,222,B06,IND 63rd Street,Roosevelt Island,Manhattan,F,Subway,40.759145,-73.953260,yes,
+223,223,B08,"IND 63rd Street, BMT 63rd Street",Lexington Avenue–63rd Street,Manhattan,"F,Q",Subway,40.764629,-73.966113,yes,
+LINE,,,Sixth Avenue,,,,,,,,
+224,224,B10,IND Sixth Avenue,57th Street,Manhattan,F,Subway,40.763972,-73.977450,yes,
+225,225,D15,IND Sixth Avenue,47th–50th Streets–Rockefeller Center,Manhattan,"B,D,F,M",Subway,40.758663,-73.981329,yes,
+226,609,D16,IND Sixth Avenue,42nd Street–Bryant Park,Manhattan,"B,D,F,M",Subway,40.754222,-73.984569,yes,
+227,607,D17,IND Sixth Avenue,34th Street–Herald Square,Manhattan,"B,D,F,M",Subway,40.749719,-73.987823,yes,
+228,228,D18,IND Sixth Avenue,23rd Street,Manhattan,"F,M",Subway,40.742878,-73.992821,no,
+229,601,D19,IND Sixth Avenue,14th Street,Manhattan,"F,M",Subway,40.738228,-73.996209,yes,
+230,619,D21,IND Sixth Avenue,Broadway–Lafayette Street,Manhattan,"B,D,F,M",Subway,40.725297,-73.996204,yes,
+231,231,D22,IND Sixth Avenue,Grand Street,Manhattan,"B,D",Subway,40.718267,-73.993753,yes,
+232,232,F14,IND Sixth Avenue,2nd Avenue,Manhattan,F,Subway,40.723402,-73.989938,yes,
+233,625,F15,IND Sixth Avenue,Delancey Street,Manhattan,F,Subway,40.718611,-73.988114,yes,
+234,234,F16,IND Sixth Avenue,East Broadway,Manhattan,F,Subway,40.713715,-73.990173,yes,
+235,235,F18,IND Sixth Avenue,York Street,Brooklyn,F,Subway,40.701397,-73.986751,yes,
+LINE,,,Culver,,,,,,,,
+236,236,F20,IND Culver,Bergen Street,Brooklyn,"F,G",Subway,40.686145,-73.990862,no,
+237,237,F21,IND Culver,Carroll Street,Brooklyn,"F,G",Subway,40.680303,-73.995048,no,
+238,238,F22,IND Culver,Smith–9th Streets,Brooklyn,"F,G",Viaduct,40.673580,-73.995959,no,
+239,608,F23,IND Culver,4th Avenue,Brooklyn,"F,G",Viaduct,40.670272,-73.989779,yes,
+240,240,F24,IND Culver,7th Avenue,Brooklyn,"F,G",Subway,40.666271,-73.980305,yes,
+241,241,F25,IND Culver,15th Street–Prospect Park,Brooklyn,"F,G",Subway,40.660365,-73.979493,no,
+242,242,F26,IND Culver,Fort Hamilton Parkway,Brooklyn,"F,G",Subway,40.650782,-73.975776,no,
+243,243,F27,IND Culver,Church Avenue,Brooklyn,F,Subway,40.644041,-73.979678,no,
+244,244,F29,IND Culver,Ditmas Avenue,Brooklyn,F,Elevated,40.636119,-73.978172,no,
+245,245,F30,IND Culver,18th Avenue,Brooklyn,F,Elevated,40.629755,-73.976971,no,
+246,246,F31,IND Culver,Avenue I,Brooklyn,F,Elevated,40.625322,-73.976127,no,
+247,247,F32,IND Culver,Bay Parkway,Brooklyn,F,Elevated,40.620769,-73.975264,no,
+248,248,F33,IND Culver,Avenue N,Brooklyn,F,Elevated,40.615140,-73.974197,no,
+249,249,F34,IND Culver,Avenue P,Brooklyn,F,Elevated,40.608944,-73.973022,no,
+250,250,F35,IND Culver,Kings Highway,Brooklyn,F,Elevated,40.603217,-73.972361,no,
+251,251,F36,IND Culver,Avenue U,Brooklyn,F,Elevated,40.596063,-73.973357,no,
+252,252,F38,IND Culver,Avenue X,Brooklyn,F,Elevated,40.589620,-73.974250,no,
+253,253,F39,IND Culver,Neptune Avenue,Brooklyn,F,Elevated,40.581011,-73.974574,no,
+LINE,,,Queens Boulevard,,,,,,,,
+254,254,F01,IND Queens Boulevard,Jamaica–179th Street,Queens,F,Subway,40.712646,-73.783817,yes,
+255,255,F02,IND Queens Boulevard,169th Street,Queens,F,Subway,40.710470,-73.793604,yes,
+256,256,F03,IND Queens Boulevard,Parsons Boulevard,Queens,F,Subway,40.707564,-73.803326,yes,
+257,257,F04,IND Queens Boulevard,Sutphin Boulevard,Queens,F,Subway,40.705460,-73.810708,yes,
+258,258,F05,IND Queens Boulevard,Briarwood,Queens,"E,F",Subway,40.709179,-73.820574,yes,
+259,259,F06,IND Queens Boulevard,Kew Gardens–Union Turnpike,Queens,"E,F",Subway,40.714441,-73.831008,yes,
+260,260,F07,IND Queens Boulevard,75th Avenue,Queens,"E,F",Subway,40.718331,-73.837324,yes,
+261,261,G08,IND Queens Boulevard,Forest Hills–71st Avenue,Queens,"E,F,M,R",Subway,40.721691,-73.844521,yes,
+262,262,G09,IND Queens Boulevard,67th Avenue,Queens,"M,R",Subway,40.726523,-73.852719,yes,
+263,263,G10,IND Queens Boulevard,63rd Drive–Rego Park,Queens,"M,R",Subway,40.729846,-73.861604,yes,
+264,264,G11,IND Queens Boulevard,Woodhaven Boulevard,Queens,"M,R",Subway,40.733106,-73.869229,yes,
+265,265,G12,IND Queens Boulevard,Grand Avenue–Newtown,Queens,"M,R",Subway,40.737015,-73.877223,yes,
+266,266,G13,IND Queens Boulevard,Elmhurst Avenue,Queens,"M,R",Subway,40.742454,-73.882017,yes,
+267,616,G14,IND Queens Boulevard,Jackson Heights–Roosevelt Avenue,Queens,"E,F,M,R",Subway,40.746644,-73.891338,yes,
+268,268,G15,IND Queens Boulevard,65th Street,Queens,"M,R",Subway,40.749669,-73.898453,no,
+269,269,G16,IND Queens Boulevard,Northern Boulevard,Queens,"M,R",Subway,40.752885,-73.906006,yes,
+270,270,G18,IND Queens Boulevard,46th Street,Queens,"M,R",Subway,40.756312,-73.913333,yes,
+271,271,G19,IND Queens Boulevard,Steinway Street,Queens,"M,R",Subway,40.756879,-73.920740,yes,
+272,272,G20,IND Queens Boulevard,36th Street,Queens,"M,R",Subway,40.752039,-73.928781,no,
+273,273,G21,IND Queens Boulevard,Queens Plaza,Queens,"E,M,R",Subway,40.748973,-73.937243,yes,
+274,606,F09,IND Queens Boulevard,Court Square,Queens,"E,M",Subway,40.747846,-73.946000,yes,
+275,612,F11,IND Queens Boulevard,Lexington Avenue–53rd Street,Manhattan,"E,M",Subway,40.757552,-73.969055,yes,
+276,276,F12,IND Queens Boulevard,5th Avenue–53rd Street,Manhattan,"E,M",Subway,40.760167,-73.975224,yes,
+277,277,D14,IND Queens Boulevard,7th Avenue,Manhattan,"B,D,E",Subway,40.762862,-73.981637,yes,
+LINES,,,Archer Avenue,,,,,,,,
+278,278,G05,"IND Archer Avenue, BMT Archer Avenue",Jamaica Center–Parsons/Archer,Queens,"E,J,Z",Subway,40.702147,-73.801109,yes,
+279,279,G06,"IND Archer Avenue, BMT Archer Avenue",Sutphin Boulevard–Archer Avenue–JFK Airport,Queens,"E,J,Z",Subway,40.700486,-73.807969,yes,
+280,280,G07,IND Archer Avenue,Jamaica–Van Wyck,Queens,E,Subway,40.702566,-73.816859,yes,
+LINE,,,Crosstown,,,,,,,,
+281,606,G22,IND Crosstown,Court Square,Queens,G,Subway,40.746554,-73.943832,yes,
+282,282,G24,IND Crosstown,21st Street,Queens,G,Subway,40.744065,-73.949724,no,
+283,283,G26,IND Crosstown,Greenpoint Avenue,Brooklyn,G,Subway,40.731352,-73.954449,no,
+284,284,G28,IND Crosstown,Nassau Avenue,Brooklyn,G,Subway,40.724635,-73.951277,no,
+285,629,G29,IND Crosstown,Metropolitan Avenue,Brooklyn,G,Subway,40.712792,-73.951418,yes,
+286,286,G30,IND Crosstown,Broadway,Brooklyn,G,Subway,40.706092,-73.950308,no,
+287,287,G31,IND Crosstown,Flushing Avenue,Brooklyn,G,Subway,40.700377,-73.950234,no,
+288,288,G32,IND Crosstown,Myrtle–Willoughby Avenues,Brooklyn,G,Subway,40.694568,-73.949046,no,
+289,289,G33,IND Crosstown,Bedford–Nostrand Avenues,Brooklyn,G,Subway,40.689627,-73.953522,no,
+290,290,G34,IND Crosstown,Classon Avenue,Brooklyn,G,Subway,40.688873,-73.960070,no,
+291,291,G35,IND Crosstown,Clinton–Washington Avenues,Brooklyn,G,Subway,40.688089,-73.966839,no,
+292,292,G36,IND Crosstown,Fulton Street,Brooklyn,G,Subway,40.687119,-73.975375,no,
+LINE,,,Broadway–Seventh Avenue,,,,,,,,
+293,293,101,IRT Broadway–Seventh Avenue,Van Cortlandt Park–242nd Street,Bronx,1,Elevated,40.889248,-73.898583,no,
+294,294,103,IRT Broadway–Seventh Avenue,238th Street,Bronx,1,Elevated,40.884667,-73.900870,no,
+295,295,104,IRT Broadway–Seventh Avenue,231st Street,Bronx,1,Elevated,40.878856,-73.904834,yes,
+296,296,106,IRT Broadway–Seventh Avenue,Marble Hill–225th Street,Manhattan,1,Elevated,40.874561,-73.909831,no,
+297,297,107,IRT Broadway–Seventh Avenue,215th Street,Manhattan,1,Elevated,40.869444,-73.915279,no,
+298,298,108,IRT Broadway–Seventh Avenue,207th Street,Manhattan,1,Elevated,40.864621,-73.918822,yes,
+299,299,109,IRT Broadway–Seventh Avenue,Dyckman Street,Manhattan,1,Elevated,40.860531,-73.925536,no,
+300,300,110,IRT Broadway–Seventh Avenue,191st Street,Manhattan,1,Subway,40.855225,-73.929412,yes,
+301,301,111,IRT Broadway–Seventh Avenue,181st Street,Manhattan,1,Subway,40.849505,-73.933596,yes,
+302,605,112,IRT Broadway–Seventh Avenue,168th Street,Manhattan,1,Subway,40.840556,-73.940133,yes,
+303,303,113,IRT Broadway–Seventh Avenue,157th Street,Manhattan,1,Subway,40.834041,-73.944890,no,
+304,304,114,IRT Broadway–Seventh Avenue,145th Street,Manhattan,1,Subway,40.826551,-73.950360,no,
+305,305,115,IRT Broadway–Seventh Avenue,137th Street–City College,Manhattan,1,Subway,40.822008,-73.953676,yes,
+306,306,116,IRT Broadway–Seventh Avenue,125th Street,Manhattan,1,Elevated,40.815581,-73.958372,yes,
+307,307,117,IRT Broadway–Seventh Avenue,116th Street–Columbia University,Manhattan,1,Subway,40.807722,-73.964110,yes,
+308,308,118,IRT Broadway–Seventh Avenue,Cathedral Parkway,Manhattan,1,Subway,40.803967,-73.966847,no,
+309,309,119,IRT Broadway–Seventh Avenue,103rd Street,Manhattan,1,Subway,40.799446,-73.968379,yes,
+310,310,120,IRT Broadway–Seventh Avenue,96th Street,Manhattan,"1,2,3",Subway,40.793919,-73.972323,yes,
+311,311,121,IRT Broadway–Seventh Avenue,86th Street,Manhattan,1,Subway,40.788644,-73.976218,yes,
+312,312,122,IRT Broadway–Seventh Avenue,79th Street,Manhattan,1,Subway,40.783934,-73.979917,yes,
+313,313,123,IRT Broadway–Seventh Avenue,72nd Street,Manhattan,"1,2,3",Subway,40.778453,-73.981970,yes,
+314,314,124,IRT Broadway–Seventh Avenue,66th Street–Lincoln Center,Manhattan,1,Subway,40.773440,-73.982209,yes,
+315,614,125,IRT Broadway–Seventh Avenue,59th Street–Columbus Circle,Manhattan,1,Subway,40.768247,-73.981929,yes,
+316,316,126,IRT Broadway–Seventh Avenue,50th Street,Manhattan,1,Subway,40.761728,-73.983849,no,
+317,611,127,IRT Broadway–Seventh Avenue,Times Square–42nd Street,Manhattan,"1,2,3",Subway,40.755290,-73.987495,yes,
+318,318,128,IRT Broadway–Seventh Avenue,34th Street–Penn Station,Manhattan,"1,2,3",Subway,40.750373,-73.991057,yes,
+319,319,129,IRT Broadway–Seventh Avenue,28th Street,Manhattan,1,Subway,40.747215,-73.993365,yes,
+320,320,130,IRT Broadway–Seventh Avenue,23rd Street,Manhattan,1,Subway,40.744081,-73.995657,yes,
+321,321,131,IRT Broadway–Seventh Avenue,18th Street,Manhattan,1,Subway,40.741040,-73.997871,no,
+322,601,132,IRT Broadway–Seventh Avenue,14th Street,Manhattan,"1,2,3",Subway,40.737826,-74.000201,yes,
+323,323,133,IRT Broadway–Seventh Avenue,Christopher Street–Sheridan Square,Manhattan,1,Subway,40.733422,-74.002906,no,
+324,324,134,IRT Broadway–Seventh Avenue,Houston Street,Manhattan,1,Subway,40.728251,-74.005367,yes,
+325,325,135,IRT Broadway–Seventh Avenue,Canal Street,Manhattan,1,Subway,40.722854,-74.006277,no,
+326,326,136,IRT Broadway–Seventh Avenue,Franklin Street,Manhattan,1,Subway,40.719318,-74.006886,no,
+327,327,137,IRT Broadway–Seventh Avenue,Chambers Street,Manhattan,"1,2,3",Subway,40.715478,-74.009266,yes,
+328,328,138,IRT Broadway–Seventh Avenue,Cortlandt Street,Manhattan,1,Subway,40.711835,-74.012188,no,
+329,329,139,IRT Broadway–Seventh Avenue,Rector Street,Manhattan,1,Subway,40.707513,-74.013783,no,
+330,635,142,IRT Broadway–Seventh Avenue,South Ferry,Manhattan,1,Subway,40.702068,-74.013664,yes,
+331,624,228,IRT Broadway–Seventh Avenue,Park Place,Manhattan,"2,3",Subway,40.713051,-74.008811,yes,
+332,628,229,IRT Broadway–Seventh Avenue,Fulton Street,Manhattan,"2,3",Subway,40.709416,-74.006571,yes,
+333,333,230,IRT Broadway–Seventh Avenue,Wall Street,Manhattan,"2,3",Subway,40.706821,-74.009100,no,
+334,334,231,IRT Broadway–Seventh Avenue,Clark Street,Brooklyn,"2,3",Subway,40.697466,-73.993086,no,
+335,620,232,IRT Broadway–Seventh Avenue,Borough Hall,Brooklyn,"2,3",Subway,40.693219,-73.989998,yes,
+LINE,,,Eastern Parkway,,,,,,,,
+415,620,423,IRT Eastern Parkway,Borough Hall,Brooklyn,"4,5",Subway,40.692404,-73.990151,yes,
+336,336,233,IRT Eastern Parkway,Hoyt Street,Brooklyn,"2,3",Subway,40.690545,-73.985065,yes,
+337,337,234,IRT Eastern Parkway,Nevins Street,Brooklyn,"2,3,4,5",Subway,40.688246,-73.980492,yes,
+338,617,235,IRT Eastern Parkway,Atlantic Avenue–Barclays Center,Brooklyn,"2,3",Subway,40.684359,-73.977666,yes,
+339,339,236,IRT Eastern Parkway,Bergen Street,Brooklyn,"2,3",Subway,40.680829,-73.975098,yes,
+340,340,237,IRT Eastern Parkway,Grand Army Plaza,Brooklyn,"2,3",Subway,40.675235,-73.971046,no,
+341,341,238,IRT Eastern Parkway,Eastern Parkway–Brooklyn Museum,Brooklyn,"2,3",Subway,40.671987,-73.964375,yes,
+342,626,239,IRT Eastern Parkway,Franklin Avenue,Brooklyn,"2,3,4,5",Subway,40.670682,-73.958131,yes,
+343,343,248,IRT Eastern Parkway,Nostrand Avenue,Brooklyn,3,Subway,40.669847,-73.950466,no,
+344,344,249,IRT Eastern Parkway,Kingston Avenue,Brooklyn,3,Subway,40.669399,-73.942161,yes,
+345,345,250,IRT Eastern Parkway,Crown Heights–Utica Avenue,Brooklyn,"3,4",Subway,40.668897,-73.932942,yes,
+LINE,,,New Lots,,,,,,,,
+346,346,251,IRT New Lots,Sutter Avenue–Rutland Road,Brooklyn,3,Elevated,40.664717,-73.922610,yes,
+347,347,252,IRT New Lots,Saratoga Avenue,Brooklyn,3,Elevated,40.661453,-73.916327,no,
+348,348,253,IRT New Lots,Rockaway Avenue,Brooklyn,3,Elevated,40.662549,-73.908946,no,
+349,349,254,IRT New Lots,Junius Street,Brooklyn,3,Elevated,40.663515,-73.902447,no,
+350,350,255,IRT New Lots,Pennsylvania Avenue,Brooklyn,3,Elevated,40.664635,-73.894895,no,
+351,351,256,IRT New Lots,Van Siclen Avenue,Brooklyn,3,Elevated,40.665449,-73.889395,no,
+352,352,257,IRT New Lots,New Lots Avenue,Brooklyn,3,Elevated,40.666235,-73.884079,no,
+LINE,,,Nostrand Avenue,,,,,,,,
+353,353,241,IRT Nostrand Avenue,President Street,Brooklyn,"2,5",Subway,40.667883,-73.950683,no,
+354,354,242,IRT Nostrand Avenue,Sterling Street,Brooklyn,"2,5",Subway,40.662742,-73.950850,no,
+355,355,243,IRT Nostrand Avenue,Winthrop Street,Brooklyn,"2,5",Subway,40.656652,-73.950200,no,
+356,356,244,IRT Nostrand Avenue,Church Avenue,Brooklyn,"2,5",Subway,40.650843,-73.949575,no,
+357,357,245,IRT Nostrand Avenue,Beverly Road,Brooklyn,"2,5",Subway,40.645098,-73.948959,no,
+358,358,246,IRT Nostrand Avenue,Newkirk Avenue,Brooklyn,"2,5",Subway,40.639967,-73.948411,no,
+359,359,247,IRT Nostrand Avenue,Flatbush Avenue–Brooklyn College,Brooklyn,"2,5",Subway,40.632836,-73.947642,yes,
+LINE,,,Pelham,,,,,,,,
+360,360,601,IRT Pelham,Pelham Bay Park,Bronx,6,Elevated,40.852462,-73.828121,yes,
+361,361,602,IRT Pelham,Buhre Avenue,Bronx,6,Elevated,40.846810,-73.832569,no,
+362,362,603,IRT Pelham,Middletown Road,Bronx,6,Elevated,40.843863,-73.836322,yes,
+363,363,604,IRT Pelham,Westchester Square–East Tremont Avenue,Bronx,6,Elevated,40.839892,-73.842952,yes,
+364,364,606,IRT Pelham,Zerega Avenue,Bronx,6,Elevated,40.836488,-73.847036,yes,
+365,365,607,IRT Pelham,Castle Hill Avenue,Bronx,6,Elevated,40.834255,-73.851222,yes,
+366,366,608,IRT Pelham,Parkchester,Bronx,6,Elevated,40.833226,-73.860816,yes,
+367,367,609,IRT Pelham,Saint Lawrence Avenue,Bronx,6,Elevated,40.831509,-73.867618,yes,
+368,368,610,IRT Pelham,Morrison Avenue–Soundview,Bronx,6,Elevated,40.829521,-73.874516,yes,
+369,369,611,IRT Pelham,Elder Avenue,Bronx,6,Elevated,40.828584,-73.879159,yes,
+370,370,612,IRT Pelham,Whitlock Avenue,Bronx,6,Elevated,40.826525,-73.886283,yes,
+371,371,613,IRT Pelham,Hunts Point Avenue,Bronx,6,Subway,40.820948,-73.890549,yes,
+372,372,614,IRT Pelham,Longwood Avenue,Bronx,6,Subway,40.816104,-73.896435,yes,
+373,373,615,IRT Pelham,East 149th Street,Bronx,6,Subway,40.812118,-73.904098,yes,
+374,374,616,IRT Pelham,East 143rd Street–Saint Mary's Street,Bronx,6,Subway,40.808719,-73.907657,no,
+375,375,617,IRT Pelham,Cypress Avenue,Bronx,6,Subway,40.805368,-73.914042,yes,
+376,376,618,IRT Pelham,Brook Avenue,Bronx,6,Subway,40.807566,-73.919240,yes,
+377,377,619,IRT Pelham,3rd Avenue–138th Street,Bronx,6,Subway,40.810476,-73.926138,yes,
+LINE,,,Jerome Avenue,,,,,,,,
+378,378,401,IRT Jerome Avenue,Woodlawn,Bronx,4,Elevated,40.886037,-73.878751,yes,
+379,379,402,IRT Jerome Avenue,Mosholu Parkway,Bronx,4,Elevated,40.879750,-73.884655,yes,
+380,380,405,IRT Jerome Avenue,Bedford Park Boulevard–Lehman College,Bronx,4,Elevated,40.873412,-73.890064,yes,
+381,381,406,IRT Jerome Avenue,Kingsbridge Road,Bronx,4,Elevated,40.867760,-73.897174,yes,
+382,382,407,IRT Jerome Avenue,Fordham Road,Bronx,4,Elevated,40.862803,-73.901034,yes,
+383,383,408,IRT Jerome Avenue,183rd Street,Bronx,4,Elevated,40.858407,-73.903879,yes,
+384,384,409,IRT Jerome Avenue,Burnside Avenue,Bronx,4,Elevated,40.853453,-73.907684,yes,
+385,385,410,IRT Jerome Avenue,176th Street,Bronx,4,Elevated,40.848480,-73.911794,yes,
+386,386,411,IRT Jerome Avenue,Mount Eden Avenue,Bronx,4,Elevated,40.844434,-73.914685,no,
+387,387,412,IRT Jerome Avenue,170th Street,Bronx,4,Elevated,40.840075,-73.917791,yes,
+388,388,413,IRT Jerome Avenue,167th Street,Bronx,4,Elevated,40.835537,-73.921400,no,
+389,604,414,IRT Jerome Avenue,161st Street–Yankee Stadium,Bronx,4,Elevated,40.827994,-73.925831,yes,
+390,603,415,IRT Jerome Avenue,149th Street–Grand Concourse,Bronx,4,Subway,40.818375,-73.927351,yes,
+391,391,416,IRT Jerome Avenue,138th Street–Grand Concourse,Bronx,"4,5",Subway,40.813224,-73.929849,yes,
+LINE,,,Lexington Avenue,,,,,,,,
+392,392,621,IRT Lexington Avenue,125th Street,Manhattan,"4,5,6",Subway,40.804138,-73.937594,yes,
+393,393,622,IRT Lexington Avenue,116th Street,Manhattan,6,Subway,40.798629,-73.941617,yes,
+394,394,623,IRT Lexington Avenue,110th Street,Manhattan,6,Subway,40.795020,-73.944250,yes,
+395,395,624,IRT Lexington Avenue,103rd Street,Manhattan,6,Subway,40.790600,-73.947478,yes,
+396,396,625,IRT Lexington Avenue,96th Street,Manhattan,6,Subway,40.785672,-73.951070,yes,
+397,397,626,IRT Lexington Avenue,86th Street,Manhattan,"4,5,6",Subway,40.779492,-73.955589,yes,
+398,398,627,IRT Lexington Avenue,77th Street,Manhattan,6,Subway,40.773620,-73.959874,yes,
+399,399,628,IRT Lexington Avenue,68th Street–Hunter College,Manhattan,6,Subway,40.768141,-73.963870,yes,
+400,613,629,IRT Lexington Avenue,59th Street,Manhattan,"4,5,6",Subway,40.762526,-73.967967,yes,
+401,612,630,IRT Lexington Avenue,51st Street,Manhattan,6,Subway,40.757107,-73.971920,yes,
+402,610,631,IRT Lexington Avenue,Grand Central–42nd Street,Manhattan,"4,5,6",Subway,40.751776,-73.976848,yes,
+403,403,632,IRT Lexington Avenue,33rd Street,Manhattan,6,Subway,40.746081,-73.982076,yes,
+404,404,633,IRT Lexington Avenue,28th Street,Manhattan,6,Subway,40.743070,-73.984264,yes,
+405,405,634,IRT Lexington Avenue,23rd Street,Manhattan,6,Subway,40.739864,-73.986599,yes,
+406,602,635,IRT Lexington Avenue,14th Street–Union Square,Manhattan,"4,5,6",Subway,40.734673,-73.989951,yes,
+407,407,636,IRT Lexington Avenue,Astor Place,Manhattan,6,Subway,40.730054,-73.991070,yes,
+408,619,637,IRT Lexington Avenue,Bleecker Street,Manhattan,6,Subway,40.725915,-73.994659,yes,
+409,409,638,IRT Lexington Avenue,Spring Street,Manhattan,6,Subway,40.722301,-73.997141,yes,
+410,623,639,IRT Lexington Avenue,Canal Street,Manhattan,6,Subway,40.718803,-74.000193,yes,
+411,622,640,IRT Lexington Avenue,Brooklyn Bridge–City Hall,Manhattan,"4,5,6",Subway,40.713065,-74.004131,yes,
+412,628,418,IRT Lexington Avenue,Fulton Street,Manhattan,"4,5",Subway,40.710368,-74.009509,yes,
+413,413,419,IRT Lexington Avenue,Wall Street,Manhattan,"4,5",Subway,40.707557,-74.011862,yes,
+414,414,420,IRT Lexington Avenue,Bowling Green,Manhattan,"4,5",Subway,40.704817,-74.014065,yes,
+LINE,,,White Plains Road,,,,,,,,
+416,416,201,IRT White Plains Road,Wakefield–241st Street,Bronx,2,Elevated,40.903125,-73.850620,yes,
+417,417,204,IRT White Plains Road,Nereid Avenue,Bronx,"2,5",Elevated,40.898379,-73.854376,yes,
+418,418,205,IRT White Plains Road,233rd Street,Bronx,"2,5",Elevated,40.893193,-73.857473,yes,
+419,419,206,IRT White Plains Road,225th Street,Bronx,"2,5",Elevated,40.888022,-73.860341,no,
+420,420,207,IRT White Plains Road,219th Street,Bronx,"2,5",Elevated,40.883895,-73.862633,no,
+421,421,208,IRT White Plains Road,Gun Hill Road,Bronx,"2,5",Elevated,40.877850,-73.866256,yes,
+422,422,209,IRT White Plains Road,Burke Avenue,Bronx,"2,5",Elevated,40.871356,-73.867164,no,
+423,423,210,IRT White Plains Road,Allerton Avenue,Bronx,"2,5",Elevated,40.865462,-73.867352,yes,
+424,424,211,IRT White Plains Road,Pelham Parkway,Bronx,"2,5",Elevated,40.857192,-73.867615,yes,
+425,425,212,IRT White Plains Road,Bronx Park East,Bronx,"2,5",Elevated,40.848828,-73.868457,no,
+426,426,213,IRT White Plains Road,East 180th Street,Bronx,"2,5",Elevated,40.841894,-73.873488,yes,
+427,427,214,IRT White Plains Road,West Farms Square–East Tremont Avenue,Bronx,"2,5",Elevated,40.840295,-73.880049,yes,
+428,428,215,IRT White Plains Road,174th Street,Bronx,"2,5",Elevated,40.837288,-73.887734,yes,
+429,429,216,IRT White Plains Road,Freeman Street,Bronx,"2,5",Elevated,40.829993,-73.891865,yes,
+430,430,217,IRT White Plains Road,Simpson Street,Bronx,"2,5",Elevated,40.824073,-73.893064,yes,
+431,431,218,IRT White Plains Road,Intervale Avenue,Bronx,"2,5",Elevated,40.822181,-73.896736,yes,
+432,432,219,IRT White Plains Road,Prospect Avenue,Bronx,"2,5",Elevated,40.819585,-73.901770,yes,
+433,433,220,IRT White Plains Road,Jackson Avenue,Bronx,"2,5",Elevated,40.816490,-73.907807,yes,
+434,434,221,IRT White Plains Road,3rd Avenue–149th Street,Bronx,"2,5",Subway,40.816109,-73.917757,yes,
+435,603,222,IRT White Plains Road,149th Street–Grand Concourse,Bronx,"2,5",Subway,40.818410,-73.926718,yes,
+LINE,,,Lenox Avenue,,,,,,,,
+436,436,301,IRT Lenox Avenue,Harlem–148th Street,Manhattan,3,Subway,40.823880,-73.936470,yes,
+437,437,302,IRT Lenox Avenue,145th Street,Manhattan,3,Subway,40.820421,-73.936245,no,
+438,438,224,IRT Lenox Avenue,135th Street,Manhattan,"2,3",Subway,40.814229,-73.940770,yes,
+439,439,225,IRT Lenox Avenue,125th Street,Manhattan,"2,3",Subway,40.807754,-73.945495,yes,
+440,440,226,IRT Lenox Avenue,116th Street,Manhattan,"2,3",Subway,40.802098,-73.949625,yes,
+441,441,227,IRT Lenox Avenue,Central Park North–110th Street,Manhattan,"2,3",Subway,40.799075,-73.951822,yes,
+LINE,,,Dyre Avenue,,,,,,,,
+442,442,501,IRT Dyre Avenue,Eastchester–Dyre Avenue,Bronx,5,At Grade,40.888300,-73.830834,yes,
+443,443,502,IRT Dyre Avenue,Baychester Avenue,Bronx,5,Open Cut,40.878663,-73.838591,yes,
+444,444,503,IRT Dyre Avenue,Gun Hill Road,Bronx,5,Open Cut,40.869526,-73.846384,no,
+445,445,504,IRT Dyre Avenue,Pelham Parkway,Bronx,5,Open Cut,40.858985,-73.855359,yes,
+446,446,505,IRT Dyre Avenue,Morris Park,Bronx,5,Open Cut,40.854364,-73.860495,yes,
+LINE,,,Flushing,,,,,,,,
+447,447,701,IRT Flushing,Flushing–Main Street,Queens,7,Subway,40.759600,-73.830030,yes,
+448,448,702,IRT Flushing,Mets–Willets Point,Queens,7,Elevated,40.754622,-73.845625,yes,
+449,449,705,IRT Flushing,111th Street,Queens,7,Elevated,40.751730,-73.855334,yes,
+450,450,706,IRT Flushing,103rd Street–Corona Plaza,Queens,7,Elevated,40.749865,-73.862700,no,
+451,451,707,IRT Flushing,Junction Boulevard,Queens,7,Elevated,40.749145,-73.869527,yes,
+452,452,708,IRT Flushing,90th Street–Elmhurst Avenue,Queens,7,Elevated,40.748408,-73.876613,yes,
+453,453,709,IRT Flushing,82nd Street–Jackson Heights,Queens,7,Elevated,40.747659,-73.883697,yes,
+454,616,710,IRT Flushing,74th Street–Broadway,Queens,7,Elevated,40.746848,-73.891394,yes,
+455,455,711,IRT Flushing,69th Street,Queens,7,Elevated,40.746325,-73.896403,yes,
+456,456,712,IRT Flushing,Woodside–61st Street,Queens,7,Elevated,40.745630,-73.902984,yes,
+457,457,713,IRT Flushing,52nd Street,Queens,7,Elevated,40.744149,-73.912549,yes,
+458,458,714,IRT Flushing,46th Street–Bliss Street,Queens,7,Elevated,40.743132,-73.918435,no,
+459,459,715,IRT Flushing,40th Street–Lowery Street,Queens,7,Elevated,40.743781,-73.924016,yes,
+460,460,716,IRT Flushing,33rd Street–Rawson Street,Queens,7,Elevated,40.744587,-73.930997,no,
+461,461,718,"IRT Flushing, BMT Astoria",Queensboro Plaza,Queens,"7,N,W",Elevated,40.750582,-73.940202,yes,
+462,606,719,IRT Flushing,Court Square,Queens,7,Elevated,40.747023,-73.945264,yes,
+463,463,720,IRT Flushing,Hunters Point Avenue,Queens,7,Subway,40.742216,-73.948916,yes,
+464,464,721,IRT Flushing,Vernon Boulevard–Jackson Avenue,Queens,7,Subway,40.742626,-73.953581,yes,
+465,610,723,IRT Flushing,Grand Central–42nd Street,Manhattan,7,Subway,40.751431,-73.976041,yes,
+466,609,724,IRT Flushing,5th Avenue–Bryant Park,Manhattan,7,Subway,40.753821,-73.981963,yes,
+467,611,725,IRT Flushing,Times Square–42nd Street,Manhattan,7,Subway,40.755477,-73.987691,yes,
+471,471,726,IRT Flushing,34th Street–Hudson Yards,Manhattan,7,Subway,40.755882,-74.001910,yes,
+LINE,,,42nd Street,,,,,,,,
+468,611,902,IRT 42nd Street,Times Square–42nd Street,Manhattan,S,Subway,40.755983,-73.986229,yes,
+469,610,901,IRT 42nd Street,Grand Central–42nd Street,Manhattan,S,Subway,40.752769,-73.979189,yes,
+LINE,,,Second Avenue,,,,,,,,
+475,475,Q05,IND Second Avenue,96th Street,Manhattan,Q,Subway,40.784318,-73.947152,yes,
+476,476,Q04,IND Second Avenue,86th Street,Manhattan,Q,Subway,40.777891,-73.951787,yes,
+477,477,Q03,IND Second Avenue,72nd Street,Manhattan,Q,Subway,40.768799,-73.958424,no,
