@@ -9,6 +9,9 @@ layout: home
 
 {% for station in site.data.stations %}
 	<p>
-		<strong>{{ station.stop_name }}</strong> ({{ station.line }}) | Visited? {{ station.visited }}
+		<strong><a href="https://www.google.com/maps/?q={{ station.gfts_lat }},{{ station.gfts_lon }}"{{ station.stop_name }}</strong> 
+		({{ station.line }}) | Visited? 
+		{% if station.visited = "yes" }<i class="fa fa-check" aria-hidden="true"></i>{% endif %}
+		{% if station.visited = "no" }<i class="fa fa-close" aria-hidden="true"></i>{% endif %}
 	</p>
 {% endfor %}
