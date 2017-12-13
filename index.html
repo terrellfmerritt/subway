@@ -7,13 +7,18 @@ layout: home
   Testing a way to keep track of how many New York City Subway stations I have visited. See below.
 </p>
 
-<table class="hidden-xs-up"> <!-- this table (and the ending close tag) are to account for lack of ability
-                                  to check if there was a previous table/if there is a next table -->
+<table class="table">
+<thead>
+	<td>Station Name</td>
+	<td>Routes Served</td>
+	<td>Visited?</td>
+	<td>Location</td>
+</thead>
 {% for station in site.data.stations %}
 	{% if station.station_ID == "LINE" or station.station_ID == "LINES" %}
-		</table>
-		<h2>{{ station.line }} {% if station.station_ID == "LINE" %}Line{% else %}Lines{% endif %}</h2>
-		<table class="table">
+	<tr>
+		<td colspan="4"><h2>{{ station.line }} {% if station.station_ID == "LINE" %}Line{% else %}Lines{% endif %}</h2></td>
+	</tr>
 	{% else %}
 	<tr class="{% if station.visited == "yes" %}table-success{% endif %}{% if station.visited == "no" %}table-danger{% endif %}">
 		<th>{{ station.stop_name }}</th>
