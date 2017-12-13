@@ -13,7 +13,7 @@ layout: home
 	{% if station.station_ID == "LINE" or station.station_ID == "LINES" %}
 		</table>
 		<h2>{{ station.line }} {% if station.station_ID == "LINE" %}Line{% else %}Lines{% endif %}</h2>
-		<table>
+		<table class="table">
 	{% else %}
 	<tr class="{% if station.visited == "yes" %}table-success{% endif %}{% if station.visited == "no" %}table-danger{% endif %}">
 		<th>{{ station.stop_name }}</th>
