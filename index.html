@@ -4,7 +4,45 @@ layout: home
 
 <h1>Subway Station Visits</h2>
 <p>
-  Testing a way to keep track of how many New York City Subway stations I have visited. See below.
+ 	Testing a way to keep track of how many New York City Subway stations I have visited. See below.
+</p>
+<p>
+	What counts as a station? Well, for simplicity's sake, this goes by the Metropolitan Transportation 
+	Authority's General Transit Feed Specification data, which counts 472 stations. For the most part,
+	this means that a platform/group of platforms that serve the same service(s) is one station.
+	Notable exceptions <a data-toggle="collapse" href="#exception_list" aria-expanded="false" aria-controls="exception_list">[show]</a>: (affected stations also have an asterisk next to their names in the list of stations):
+	<ol class="collapse" id="exception_list">
+		<li>
+			<a href="#D43">Coney Island&ndash;Stillwell Avenue</a> counts as one station, despite serving
+			four lines (the Sea Beach, West End, Brighton, and Culver Lines) on separate platforms. On this
+			list, it is listed under the Brighton Line.
+		</li>
+		<li>
+			<a href="#A25">50th Street</a> (Eighth Avenue Line) counts as one station, despite the upper level
+			exclusively serving Eighth Avenue Line trains and the lower level exclusively serving Queens
+			Boulevard Line trains. On this list, it is listed under the Eighth Avenue Line.
+		</li>
+		<li>
+			<a href="#A32">West 4th Street&ndash;Washington Square</a> counts as one station, despite the upper
+			level exclusively serving Eighth Avenue Line trains and the lower level exclusively serving Sixth
+			Avenue Line trains. On this list, it is listed under the Eighth Avenue Line.
+		</li>
+		<li>
+			<a href="#A41">Jay Street&ndash;MetroTech</a> counts as two stations: one that serves Fourth Avenue
+			Line trains and one that serves both Fulton Street Line and Culver Line trains. On this list, the
+			latter is listed under the Fulton Street Line.
+		</li>
+		<li>
+			<a href="#A42">Hoyt&ndash;Schermerhorn Streets</a> is one station served by two lines on shared
+			platforms: both platforms serve Fulton Street Line and Crosstown Line trains. On this list,
+			it is listed under the Fulton Street Line.
+		</li>
+		<li>
+			<a href="#718">Queensboro Plaza</a> is one station served by two lines on shared platforms: both
+			platforms serve Flushing Line and Astoria Line trains. On this list, it is listed under the
+			Flushing Line.
+		</li>
+	</ol>
 </p>
 
 <table class="table">
@@ -14,8 +52,8 @@ layout: home
 		<td colspan="3"><h2>{{ station.line }} {% if station.station_ID == "LINE" %}Line{% else %}Lines{% endif %}</h2></td>
 	</tr>
 	{% else %}
-	<tr class="{% if station.visited == "yes" %}table-success{% endif %}{% if station.visited == "no" %}table-danger{% endif %}">
-		<td><strong>{{ station.stop_name }}</strong> ({{ station.routes }})</td>
+	<tr id="{{ station.gtfs_ID }}" class="{% if station.visited == "yes" %}table-success{% endif %}{% if station.visited == "no" %}table-danger{% endif %}">
+		<td><strong>{{ station.stop_name }}</strong>{% if station.additional_lines %}*{% endif %} ({{ station.routes }})</td>
 		<td>{% if station.visited == "yes" %}<i class="fa fa-check" aria-hidden="true"></i>{% endif %}{% if station.visited == "no" %}<i class="fa fa-close" aria-hidden="true"></i>{% endif %}</td>
 		<td><a href="https://www.google.com/maps/?q={{ station.gtfs_lat }},{{ station.gtfs_lon }}"><i class="fa fa-map-marker aria-hidden="true"></i></a></td>
 	</tr>
